@@ -1,0 +1,11 @@
+framework module LongdoMapFramework {
+  umbrella header "LongdoMapFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module LongdoMapFramework.Swift {
+    header "LongdoMapFramework-Swift.h"
+    requires objc
+}

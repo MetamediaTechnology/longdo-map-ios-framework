@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+        <script src="https://apix.longdo.com/map3/"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="https://apix.longdo.com/map3/js/maplibre-gl.css">
+        <script src="https://apix.longdo.com/map3/js/maplibre-gl.js"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="https://apix.longdo.com/map3/js/mapbox-gl-draw.css">
+        <style>
+            body{margin:0}
+            #map{width:100vw;height:100vh;}
+        </style>
+        <script src="https://apix.longdo.com/map3/js/mapbox-gl-draw.js"></script>
+        <script>
+            let map;
+            function bind() {
+                map.Layers.externalOptions({
+                    mapboxStyle: longdo.Server.vector + '/styles/osm-bright/style.json'
+                });
+            }
+            function init() {
+                map = new longdo.Map({ placeholder: document.getElementById('map'),
+                    lastView: false });
+                bind();
+            }
+        </script>
+    </head>
+    <body onload=init()>
+        <div id="map"></div>
+    </body>
+</html>
