@@ -1,30 +1,99 @@
-<html>
-    <head>
-        <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
-        <script src="https://apix.longdo.com/map3/"></script>
-        <link rel="stylesheet" type="text/css" media="all" href="https://apix.longdo.com/map3/js/maplibre-gl.css">
-        <script src="https://apix.longdo.com/map3/js/maplibre-gl.js"></script>
-        <link rel="stylesheet" type="text/css" media="all" href="https://apix.longdo.com/map3/js/mapbox-gl-draw.css">
-        <style>
-            body{margin:0}
-            #map{width:100vw;height:100vh;}
-        </style>
-        <script src="https://apix.longdo.com/map3/js/mapbox-gl-draw.js"></script>
-        <script>
-            let map;
-            function bind() {
-                map.Layers.externalOptions({
-                    mapboxStyle: longdo.Server.vector + '/styles/osm-bright/style.json'
-                });
-            }
-            function init() {
-                map = new longdo.Map({ placeholder: document.getElementById('map'),
-                    lastView: false });
-                bind();
-            }
-        </script>
-    </head>
-    <body onload=init()>
-        <div id="map"></div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title></title>
+    <style>
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0; font: 12px/1.2 sans-serif; }
+      #map { width: 100%; height: 100%; }
+    </style>
+    <script src="https://${Const.server}?key=${Const.apiKey}"></script>
+    <script>
+      let objectList = [];
+      function init() {
+        const placeholder = document.getElementById('map');
+        if (!window.longdo) {
+          placeholder.innerHTML = 'Unregistered app: ${Const.bundleId}';
+          return;
+        }
+        console.log = (message) => window.webkit.messageHandlers.log.postMessage({"log": message})
+        onerror = (message, source, lineno, colno) => {
+          console.log(message + ' @ ' + source + '#L' + lineno + ':' + colno);
+          return true;
+        };
+        const props = ${Const.props};
+        
+        const map = new longdo.Map({
+          layer: parse(props.layer),
+          zoom: props.zoom,
+          zoomRange: props.zoomRange,
+          location: props.location,
+          ui: props.ui,
+          lastView: props.lastView,
+          language: props.language,
+          placeholder: placeholder
+        });
+        map.Ui.Geolocation?.visible(false);
+        for (const event of ['click', 'zoom', 'ready', 'overlayClick']) {
+          try {
+            map.Event.bind(event,
+              data => window.webkit.messageHandlers.event.postMessage({"event": event, "data": serialize(data)}));
+          } catch (e) {
+            console.log(e);
+          }
+        }
+        map.toJSON = map.Overlays.toJSON = map.Ui.toJSON = () => ({});
+        objectList[0] = map;
+      }
+      function parse(data) {
+        if (!data) return data;
+        if (data.$static) return longdo[data.$static][data.name];
+        if (data.$object) {
+          let object = objectList[data.$id];
+          if (!object) {
+            object = new longdo[data.$object](...data.args.map(parse));
+            object.$id = data.$id;
+            objectList[data.$id] = object;
+          }
+          return object;
+        }
+        return data;
+      }
+      function serialize(object) {
+        if (!object) return object;
+        if (object.$id) return { $object: true, $id: object.$id };
+        if (object.active) return { $object: null };
+        if (Array.isArray(object)) {
+          for (let i = 0; i < object.length; ++i) {
+            object[i] = serialize(object[i]);
+          }
+        }
+        return object;
+      }
+      function call(method, args) {
+        let dot = method.indexOf('.');
+        if (dot < 0) {
+          return commit(objectList[0], method, args);
+        } else {
+          return commit(objectList[0][method.substring(0, dot)], method.substring(dot + 1), args);
+        }
+      }
+      function objectCall(object, method, args) {
+        return commit(parse(object), method, args);
+      }
+      function commit(executor, method, args) {
+        if (executor && executor[method]) {
+          return serialize(executor[method](...args.map(parse)));
+        } else {
+          console.log(method + ' not found');
+          return null;
+        }
+      }
+    </script>
+  </head>
+  <body onload="init();">
+    <div id="map"></div>
+  </body>
 </html>

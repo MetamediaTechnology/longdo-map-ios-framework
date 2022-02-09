@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R4KB2dTy8l69mqYEqFOgXnA6g2M=
+		m26pl9pSu5fa2tKqYN9B59NYxrU=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2SC53eNUalGyvr/tB475RFLYeQQ=
+		VejFlWCx93PnhLS4o1m3iRAHk0c=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3kRr2f5Jpl5RzilmQ92zm8ejdb0=
+		2mJ2TqbFfx+gAYBNgJaNuQ3mOns=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		2SC53eNUalGyvr/tB475RFLYeQQ=
+		VejFlWCx93PnhLS4o1m3iRAHk0c=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		3kRr2f5Jpl5RzilmQ92zm8ejdb0=
+		2mJ2TqbFfx+gAYBNgJaNuQ3mOns=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jLC7hjvWQDGvoNmOvodBMxLFeOg=
+		vl9VdDiHJee5pP4vpkkR83tPSv8=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZKnVLMtfvjzW+BnFkqwDdZZPFLY=
+		wXoZY7ljO2NJKk11GZO2zzvoha4=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		jLC7hjvWQDGvoNmOvodBMxLFeOg=
+		vl9VdDiHJee5pP4vpkkR83tPSv8=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ZKnVLMtfvjzW+BnFkqwDdZZPFLY=
+		wXoZY7ljO2NJKk11GZO2zzvoha4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>index.html</key>
 		<data>
-		RJnifZNhwFBToZY/twbvfqFwOtM=
+		HGy2f/Ywo19hhA7NlJGteso50so=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aStO/iCeJM1Y/kKzkNbW9OSnilYjPRu0qs4iG/dySbE=
+			kgCeAEwfRgNt8QPkyFom9TXXKoOcBYimRAHq3K7cE6I=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/xZRy24Jqsex5ImWdkG/EV6LGYG2js+fhwDraQC34jw=
+			e4Zd1NwIZUKoxmxjQwMHbqiiHLi3buBttRqEGyhUnss=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
@@ -121,14 +121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aStO/iCeJM1Y/kKzkNbW9OSnilYjPRu0qs4iG/dySbE=
+			kgCeAEwfRgNt8QPkyFom9TXXKoOcBYimRAHq3K7cE6I=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/xZRy24Jqsex5ImWdkG/EV6LGYG2js+fhwDraQC34jw=
+			e4Zd1NwIZUKoxmxjQwMHbqiiHLi3buBttRqEGyhUnss=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqyAvAOwHisI6rQGud4sABlOo6LPszZbIy67TBb0Cp0=
+			XH9pBlBhFsNZ05rUsTL+wXcsDxU94gNOg5PTAZIyUn0=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OG/reXt8n2/k7BNwD/NSaJ4t9wy+FWgdxOLsM6wF7Aw=
+			CMdvY3sHO3YOiRdHSSGQVFtuHjzfAPoD3h3AWxdq1N8=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqyAvAOwHisI6rQGud4sABlOo6LPszZbIy67TBb0Cp0=
+			XH9pBlBhFsNZ05rUsTL+wXcsDxU94gNOg5PTAZIyUn0=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OG/reXt8n2/k7BNwD/NSaJ4t9wy+FWgdxOLsM6wF7Aw=
+			CMdvY3sHO3YOiRdHSSGQVFtuHjzfAPoD3h3AWxdq1N8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JP36v8AQLkW3RLzQxuRaAvLqCMmxf4IEvO9yEgwS9Zc=
+			TinOslApmnHZaR1IMDk9aqMnCKIWyGckMndj77G6WpU=
 			</data>
 		</dict>
 	</dict>

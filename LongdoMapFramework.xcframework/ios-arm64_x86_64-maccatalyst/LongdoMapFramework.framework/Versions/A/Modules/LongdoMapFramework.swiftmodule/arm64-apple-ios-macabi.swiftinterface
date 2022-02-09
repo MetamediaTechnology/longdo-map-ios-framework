@@ -7,10 +7,49 @@ import Foundation
 import Swift
 import WebKit
 import _Concurrency
+public enum LongdoBind : Swift.String {
+  case ready
+  case overlayClick
+  case click
+  case zoom
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol LongdoDelegate {
+  func recieve(on event: LongdoMapFramework.LongdoBind, with data: Any?)
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class LongdoMap : WebKit.WKWebView, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor(unsafe) public var delegate: LongdoMapFramework.LongdoDelegate?
+  @_Concurrency.MainActor(unsafe) public var apikey: Swift.String {
+    get
+    set(val)
+  }
+  public struct LDStatic : Swift.Hashable {
+    public func toDictionary() -> Swift.Dictionary<Swift.String, Swift.String>
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: LongdoMapFramework.LongdoMap.LDStatic, b: LongdoMapFramework.LongdoMap.LDStatic) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public struct LDObject : Any, Swift.Equatable {
+    public static func == (lhs: LongdoMapFramework.LongdoMap.LDObject, rhs: LongdoMapFramework.LongdoMap.LDObject) -> Swift.Bool
+    public func toDictionary() -> Swift.Dictionary<Swift.String, Any>
+  }
+  @_Concurrency.MainActor(unsafe) public func ldstatic(_ ldstatic: Swift.String, with name: Swift.String) -> LongdoMapFramework.LongdoMap.LDStatic
+  @_Concurrency.MainActor(unsafe) public func ldobject(_ ldobject: Swift.String, with params: [Any]) -> LongdoMapFramework.LongdoMap.LDObject
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect, configuration: WebKit.WKWebViewConfiguration)
   @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @_Concurrency.MainActor(unsafe) public func location(_ location: CoreLocation.CLLocationCoordinate2D)
   @_Concurrency.MainActor(unsafe) public func location() -> CoreLocation.CLLocationCoordinate2D?
+  @_Concurrency.MainActor(unsafe) public func call(method: Swift.String, args: [Any]?) -> Any?
+  @_Concurrency.MainActor(unsafe) public func objectCall(ldobject: LongdoMapFramework.LongdoMap.LDObject, method: Swift.String, args: [Any]?) -> Any?
   @objc deinit
 }
+extension LongdoMapFramework.LongdoBind : Swift.Equatable {}
+extension LongdoMapFramework.LongdoBind : Swift.Hashable {}
+extension LongdoMapFramework.LongdoBind : Swift.RawRepresentable {}

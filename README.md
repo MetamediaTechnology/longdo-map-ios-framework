@@ -12,6 +12,9 @@ https://github.com/MetamediaTechnology/longdo-map-demo-ios
 
 ## Change log
 
+### Version 4.0.1
+* Delegate when events are fired.
+
 ### Version 4.0
 * Vector Layer.
 
