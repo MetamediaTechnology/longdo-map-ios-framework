@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z6qtxZOkHq/mT6Y2CbPgXlRczaU=
+		s49ZjRmi7ltuXxx7uKRxWHsjpGg=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		neKolicy3erp24g1vaDNqKk/p0k=
+		hmb8ta+uPGXvhhiHbDqZBSqfChQ=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Hln6TUhM5mHC8o8K9BLGbarXVtw=
+		YPiNuUPHJiBUiidMQhMbf3UtBjs=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		neKolicy3erp24g1vaDNqKk/p0k=
+		hmb8ta+uPGXvhhiHbDqZBSqfChQ=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Hln6TUhM5mHC8o8K9BLGbarXVtw=
+		YPiNuUPHJiBUiidMQhMbf3UtBjs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>index.html</key>
 		<data>
-		HGy2f/Ywo19hhA7NlJGteso50so=
+		yCjD1cRWcTKeq+qr90ezzLMmf/Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B0pl/2ri6qfjxZPtLQvzT+3pFeJwYoszuF62XpeabpQ=
+			OFTskSWoJ0CYHz2plihmpt5Wj7YNPauallPa7SMiFqE=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8wpUQkzv8u2mgo0rCn8SEuxrSW6szNHIWHFaNxauE5A=
+			SAfq8BO4+PlZQ9MypUAE456iqoPXif3NZHCjiGgfsi4=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B0pl/2ri6qfjxZPtLQvzT+3pFeJwYoszuF62XpeabpQ=
+			OFTskSWoJ0CYHz2plihmpt5Wj7YNPauallPa7SMiFqE=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8wpUQkzv8u2mgo0rCn8SEuxrSW6szNHIWHFaNxauE5A=
+			SAfq8BO4+PlZQ9MypUAE456iqoPXif3NZHCjiGgfsi4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TinOslApmnHZaR1IMDk9aqMnCKIWyGckMndj77G6WpU=
+			rNIk7ImyGcpSJH+yU2EwtmD2liQ6i3Tb+CobXpAzI7o=
 			</data>
 		</dict>
 	</dict>

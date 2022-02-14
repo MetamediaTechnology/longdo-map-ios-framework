@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		XF09XN4+ZLjgkytuosrbcGwSABE=
+		9ODaGiT2k2jvhyH7QdgVVfpmBCA=
 		</data>
 		<key>Resources/index.html</key>
 		<data>
-		HGy2f/Ywo19hhA7NlJGteso50so=
+		yCjD1cRWcTKeq+qr90ezzLMmf/Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -40,14 +40,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dTo2LAe/4aAwuFhvJHnuZcVeTbB8zJN2KN9MUeWcdjQ=
+			ZZJWlRa8zV0dhF22sJopPm0LFQzBhmFraE774cF71S8=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pnbc7/SoAX2nIaOnk9Phv5TSuLMzrT3UkhQjDl9TStg=
+			J3SKWycXEbjJgR1fjB0GDSIZ56Foezawnw3cdHk/TTU=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dTo2LAe/4aAwuFhvJHnuZcVeTbB8zJN2KN9MUeWcdjQ=
+			ZZJWlRa8zV0dhF22sJopPm0LFQzBhmFraE774cF71S8=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pnbc7/SoAX2nIaOnk9Phv5TSuLMzrT3UkhQjDl9TStg=
+			J3SKWycXEbjJgR1fjB0GDSIZ56Foezawnw3cdHk/TTU=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D/O+/9lI5Vbq9W0QB5kCetbzGyobzTEQ5zSliFpNz3M=
+			vFuqUNc9rVXmCiS+4t34/cghArVOfV2WfphEwgvfQaY=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ye1SFFSyBLQ/kn1jptZw1Cbp9Oy3fba4BQb6rnRA5JY=
+			/kPUyWBi5cXO3TB2t3qizlqYjYbQWmwbviu2LzJuaEs=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -103,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D/O+/9lI5Vbq9W0QB5kCetbzGyobzTEQ5zSliFpNz3M=
+			vFuqUNc9rVXmCiS+4t34/cghArVOfV2WfphEwgvfQaY=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ye1SFFSyBLQ/kn1jptZw1Cbp9Oy3fba4BQb6rnRA5JY=
+			/kPUyWBi5cXO3TB2t3qizlqYjYbQWmwbviu2LzJuaEs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -124,14 +124,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kIcLtVpAvezqpxd+Mf1X3fzr7RGA9G9ZFm3DeyNypo8=
+			sn0h5zWH4wjXUWutECVsXIuoNP/fGNfFGqsB/wGML7I=
 			</data>
 		</dict>
 		<key>Resources/index.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TinOslApmnHZaR1IMDk9aqMnCKIWyGckMndj77G6WpU=
+			rNIk7ImyGcpSJH+yU2EwtmD2liQ6i3Tb+CobXpAzI7o=
 			</data>
 		</dict>
 	</dict>

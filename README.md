@@ -12,6 +12,11 @@ https://github.com/MetamediaTechnology/longdo-map-demo-ios
 
 ## Change log
 
+### Version 4.0.2
+* Add more optional initial map parameters e.g. zoom, location, zoom range, and layer.
+* Fix an issue when using apiKey with specific domain or bundle ID.
+* Need `map.render()` before render the map.
+
 ### Version 4.0.1
 * Delegate when events are fired.
 

@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		m26pl9pSu5fa2tKqYN9B59NYxrU=
+		onemKzueUTVnKUxL6Lejd6AOkBo=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VejFlWCx93PnhLS4o1m3iRAHk0c=
+		MhYIy5OcXqQ1j0L0MfBy3ZK0YPU=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2mJ2TqbFfx+gAYBNgJaNuQ3mOns=
+		S+JyGDJucd8TKsCiv/+2Q/X4iXc=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		VejFlWCx93PnhLS4o1m3iRAHk0c=
+		MhYIy5OcXqQ1j0L0MfBy3ZK0YPU=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		2mJ2TqbFfx+gAYBNgJaNuQ3mOns=
+		S+JyGDJucd8TKsCiv/+2Q/X4iXc=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vl9VdDiHJee5pP4vpkkR83tPSv8=
+		n4KLpOTBRINvWzbrmiNrG7wrdzo=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wXoZY7ljO2NJKk11GZO2zzvoha4=
+		d2V+jfcj5v60phz3Fg2zCpec/So=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		vl9VdDiHJee5pP4vpkkR83tPSv8=
+		n4KLpOTBRINvWzbrmiNrG7wrdzo=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		wXoZY7ljO2NJKk11GZO2zzvoha4=
+		d2V+jfcj5v60phz3Fg2zCpec/So=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>index.html</key>
 		<data>
-		HGy2f/Ywo19hhA7NlJGteso50so=
+		yCjD1cRWcTKeq+qr90ezzLMmf/Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kgCeAEwfRgNt8QPkyFom9TXXKoOcBYimRAHq3K7cE6I=
+			X+oMBczy6GnQX674ws0H27hwn6ZGo0HLMsagev6WKsA=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e4Zd1NwIZUKoxmxjQwMHbqiiHLi3buBttRqEGyhUnss=
+			pNEPSky9CO15ZjVgufF0Ha+x3BF87PA9RditQVYXABU=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
@@ -121,14 +121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kgCeAEwfRgNt8QPkyFom9TXXKoOcBYimRAHq3K7cE6I=
+			X+oMBczy6GnQX674ws0H27hwn6ZGo0HLMsagev6WKsA=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e4Zd1NwIZUKoxmxjQwMHbqiiHLi3buBttRqEGyhUnss=
+			pNEPSky9CO15ZjVgufF0Ha+x3BF87PA9RditQVYXABU=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XH9pBlBhFsNZ05rUsTL+wXcsDxU94gNOg5PTAZIyUn0=
+			zmEfR1nxYwrymzpMOn52jXeEzFN20k1ZL94ZvpXIvEs=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CMdvY3sHO3YOiRdHSSGQVFtuHjzfAPoD3h3AWxdq1N8=
+			IhaKBRuKwq9qHADGm4CyFc9a3c9cDvG6mfOXi5I5jvw=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XH9pBlBhFsNZ05rUsTL+wXcsDxU94gNOg5PTAZIyUn0=
+			zmEfR1nxYwrymzpMOn52jXeEzFN20k1ZL94ZvpXIvEs=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CMdvY3sHO3YOiRdHSSGQVFtuHjzfAPoD3h3AWxdq1N8=
+			IhaKBRuKwq9qHADGm4CyFc9a3c9cDvG6mfOXi5I5jvw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TinOslApmnHZaR1IMDk9aqMnCKIWyGckMndj77G6WpU=
+			rNIk7ImyGcpSJH+yU2EwtmD2liQ6i3Tb+CobXpAzI7o=
 			</data>
 		</dict>
 	</dict>

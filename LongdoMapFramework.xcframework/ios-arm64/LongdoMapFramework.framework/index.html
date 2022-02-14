@@ -15,7 +15,7 @@
       function init() {
         const placeholder = document.getElementById('map');
         if (!window.longdo) {
-          placeholder.innerHTML = 'Unregistered app: ${Const.bundleId}';
+          placeholder.innerHTML = 'Unregistered app ${Const.bundleId} or start with map.render()';
           return;
         }
         console.log = (message) => window.webkit.messageHandlers.log.postMessage({"log": message})
