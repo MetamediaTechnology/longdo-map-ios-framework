@@ -214,6 +214,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class WKUserContentController;
 @class WKScriptMessage;
 
+/// Integrated map tiles from Longdo Map to iOS application.
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC18LongdoMapFramework9LongdoMap")
 @interface LongdoMap : WKWebView <WKNavigationDelegate, WKScriptMessageHandler>
@@ -443,6 +444,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class WKUserContentController;
 @class WKScriptMessage;
 
+/// Integrated map tiles from Longdo Map to iOS application.
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC18LongdoMapFramework9LongdoMap")
 @interface LongdoMap : WKWebView <WKNavigationDelegate, WKScriptMessageHandler>

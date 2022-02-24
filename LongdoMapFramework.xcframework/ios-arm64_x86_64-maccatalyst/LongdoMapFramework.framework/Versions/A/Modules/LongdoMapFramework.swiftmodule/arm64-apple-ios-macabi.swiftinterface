@@ -20,7 +20,7 @@ public enum LongdoBind : Swift.String {
   }
 }
 public protocol LongdoDelegate {
-  func recieve(on event: LongdoMapFramework.LongdoBind, with data: Any?)
+  func receive(on event: LongdoMapFramework.LongdoBind, with data: Any?)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class LongdoMap : WebKit.WKWebView, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor(unsafe) public var delegate: LongdoMapFramework.LongdoDelegate?

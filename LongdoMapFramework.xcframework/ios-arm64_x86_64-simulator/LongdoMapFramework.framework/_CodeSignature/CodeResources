@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LongdoMapFramework-Swift.h</key>
 		<data>
-		XWw92wDjgC+ahcupsAwyWvY3zz0=
+		eOjuOLpsyPOSzxQmNn39amMJoIQ=
 		</data>
 		<key>Headers/LongdoMapFramework.h</key>
 		<data>
@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		onemKzueUTVnKUxL6Lejd6AOkBo=
+		j38EQ35xqZimkPB2ksTQG2oa1UQ=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MMaVlhzWciT1MS6MNfq4SrRZeZY=
+		se8VwWQTgAtyorK1FKbkgRMVbNI=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MhYIy5OcXqQ1j0L0MfBy3ZK0YPU=
+		PLNY9s10YjAvl4FpBhiSHM6IYGA=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S+JyGDJucd8TKsCiv/+2Q/X4iXc=
+		3JB5y86NRQvU+GbC0p67P5VKD7w=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		MMaVlhzWciT1MS6MNfq4SrRZeZY=
+		se8VwWQTgAtyorK1FKbkgRMVbNI=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		MhYIy5OcXqQ1j0L0MfBy3ZK0YPU=
+		PLNY9s10YjAvl4FpBhiSHM6IYGA=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		S+JyGDJucd8TKsCiv/+2Q/X4iXc=
+		3JB5y86NRQvU+GbC0p67P5VKD7w=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vox3Y6EveYaD4DmPb1/b5na5Lfk=
+		An7GRo59f8vKoGSQ52Td7KAHqpg=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		n4KLpOTBRINvWzbrmiNrG7wrdzo=
+		QWk3OyplBupHklDtReDKpj2Rd1E=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d2V+jfcj5v60phz3Fg2zCpec/So=
+		fPxvn1+IImzOfTO0VUuA/Z7kJOM=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		vox3Y6EveYaD4DmPb1/b5na5Lfk=
+		An7GRo59f8vKoGSQ52Td7KAHqpg=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		n4KLpOTBRINvWzbrmiNrG7wrdzo=
+		QWk3OyplBupHklDtReDKpj2Rd1E=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		d2V+jfcj5v60phz3Fg2zCpec/So=
+		fPxvn1+IImzOfTO0VUuA/Z7kJOM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6X3Wku9nSB09h3N1PktFJxJCr6dHkg+iAYoegGlj8tM=
+			VWHZITBtCQheLOJbvFo59iYid/oR+1vtfciWk+4OyaA=
 			</data>
 		</dict>
 		<key>Headers/LongdoMapFramework.h</key>
@@ -93,84 +93,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ymAhFHVYpTKwojeIQGjPcnKz54EDLb8vKl61J6Cr7T8=
+			peWx42vBDhQ4SYlq2ppIT/A4Adqsr3zc7tocTYdUS0g=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+oMBczy6GnQX674ws0H27hwn6ZGo0HLMsagev6WKsA=
+			NvwS/KbrOhfML0OstQGY3hoBbVQebZ2qO6JRxrKk2w8=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pNEPSky9CO15ZjVgufF0Ha+x3BF87PA9RditQVYXABU=
+			GxNntNDGL/7ozu27ItuNOWx6aTLtxx7SU2yQb0FbZrE=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ymAhFHVYpTKwojeIQGjPcnKz54EDLb8vKl61J6Cr7T8=
+			peWx42vBDhQ4SYlq2ppIT/A4Adqsr3zc7tocTYdUS0g=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+oMBczy6GnQX674ws0H27hwn6ZGo0HLMsagev6WKsA=
+			NvwS/KbrOhfML0OstQGY3hoBbVQebZ2qO6JRxrKk2w8=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pNEPSky9CO15ZjVgufF0Ha+x3BF87PA9RditQVYXABU=
+			GxNntNDGL/7ozu27ItuNOWx6aTLtxx7SU2yQb0FbZrE=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JsTcpK0s/7Uj3uCG3Nnd+QlhN+SlgCOCdq7qCU2uk8s=
+			f41TfjUlcVMhsjawwd1nNwDELWTbxKY11wPckZj65R0=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmEfR1nxYwrymzpMOn52jXeEzFN20k1ZL94ZvpXIvEs=
+			TLKt/l7gMWXaaivcUsywY9GiBPQn11Mqua+kEeYmfeA=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IhaKBRuKwq9qHADGm4CyFc9a3c9cDvG6mfOXi5I5jvw=
+			XI1A2Jkx0VfN+fNJR+BiDxoiIK1aUekneH5UaaVgwb8=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JsTcpK0s/7Uj3uCG3Nnd+QlhN+SlgCOCdq7qCU2uk8s=
+			f41TfjUlcVMhsjawwd1nNwDELWTbxKY11wPckZj65R0=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmEfR1nxYwrymzpMOn52jXeEzFN20k1ZL94ZvpXIvEs=
+			TLKt/l7gMWXaaivcUsywY9GiBPQn11Mqua+kEeYmfeA=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IhaKBRuKwq9qHADGm4CyFc9a3c9cDvG6mfOXi5I5jvw=
+			XI1A2Jkx0VfN+fNJR+BiDxoiIK1aUekneH5UaaVgwb8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
