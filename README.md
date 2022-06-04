@@ -12,8 +12,20 @@ https://github.com/MetamediaTechnology/longdo-map-demo-ios
 
 ## Change log
 
+### Version 4.0.4
+* Add `LongdoTurn` and `LongdoLocale` enumeration.
+* Add `LDFunction` to use with some Longdo Map’s method that needs function as parameter and has returned value.
+* Support method `Tags.add` for add custom tag to the map.
+* Support method `Overlays.Object` for administration object to the map.
+* Support `Menubar` object for display menu in the map.
+* Support `CLLocationCoordinate2D`, `ClosedRange`, `UIColor`, `LongdoLocale`, `CGSize`, and `CGPoint` type as parameter.
+* Fix issues that some icon marker cannot be display in the map.
+* Show warning log when use wrong name of method or wrong type of parameter.
+* Show warning log when no network connection.
+* Support device that have safe area.
+
 ### Version 4.0.3
-* Add document.
+* Add documentation.
 * Fix typo in delegate function.
 * Fix issue from returned object in `call`/`objectCall` function.
 
