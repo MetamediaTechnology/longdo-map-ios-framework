@@ -40,8 +40,8 @@ https://github.com/MetamediaTechnology/longdo-map-demo-ios
 ### Version 4.0
 * Vector Layer.
 
-### Version 3.20 and older
-https://github.com/MetamediaTechnology/longdo-map-ios-sdk
+### Version 3.21 and older
+https://github.com/MetamediaTechnology/longdo-map-sdk-ios
 
 ## Copyright and license
   * Metamedia Technology © 2005 - now. All Rights Reserved.
