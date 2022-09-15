@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		9Pf7Sm920zneLGkrsp434ZXSEz8=
+		Pn4Mdku8r2xdbpnwa6eRf8/DvwI=
 		</data>
 		<key>Resources/index.html</key>
 		<data>
-		qN6NfFhKCxnYTQx2EMTIM/9PRiw=
+		jb5o7fOGqoBu3JoStDrvyXqZ1gw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -19,7 +19,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wG+Y8xRoJatd0Iy8GIM+EcRoXneleeAdE24lhhfYl9U=
+			gmLjP9dJaBm5YisY8QPN79T8+KGDyLGiqwzNdL6EhAo=
 			</data>
 		</dict>
 		<key>Headers/LongdoMapFramework.h</key>
@@ -33,42 +33,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VOm9so6nJ7+o+wBS0ff8u9JulPgKdSWX0WH22ebAhDo=
+			fMJSCJRwtUJ4ghCUUPR+L+MX4K1Dl4FpTnGXnDuLT8M=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kY80RXVQi4/OGTJ797vfXrgFu/z7xtaqGXSl9xNLWw0=
+			B3VVxnfWc2nZzYsFODPfAnm2Hbc/x8f2I2a2mYcdGsE=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wZHB9qiL7UU28z0MCEXShNlwjzyvdnmLc7KbSFE27+4=
+			zlKpDRXOVHuMcsdN1LA6eimDBCc8+V1c7ggbWIE7EN0=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VmzLS/2BjKDdBkhQ9LKEmfLR3NsYcbErdp8r11Y3a5E=
+			IB95czTNg2+krhl3/oq523nvI1/0EGZtOEJWi7Aeazo=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Txlg56yy9XMZCwLj0/f6+Y3aa81LE1PPDdkF5bZXdZY=
+			zq/ev6p8620E70kG2S+HOJR3Od4bTOKS9okR4dc6J3o=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gMgLAENC6CxWTIeL6E1l2W7vVVxxWJgBUP2Ef6lh1Go=
+			GqTHev/M69JmI6Y1NELO3VPulRue1Gxk+gUrcRtzGSE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N3flDML74HTfidROmUNG5jNj2jYJLxYLP4XnlsDMPsU=
+			Dpxu9WbhlrsZJRwf/LysyMGUWC9EyNPH6gsST50Hjbs=
 			</data>
 		</dict>
 		<key>Resources/index.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cm3iy8SwmqCTPie8+KtKWfIQ67aXyOVv0KsAi9iM/4k=
+			Sd5hyIVqDOtljL8E5TkNmgpDpYNMHnz18Q316qYy5NE=
 			</data>
 		</dict>
 	</dict>

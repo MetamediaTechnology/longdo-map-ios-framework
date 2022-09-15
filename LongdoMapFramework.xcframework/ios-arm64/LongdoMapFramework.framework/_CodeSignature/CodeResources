@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LongdoMapFramework-Swift.h</key>
 		<data>
-		C1932O+fWfTGFGMV1M73FDgcqD4=
+		ATL19r9RWvapUqWXcK/u8eK1XXc=
 		</data>
 		<key>Headers/LongdoMapFramework.h</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PGbSXgPdD6lehbpeKMfUGOX972s=
+		h1Wq+CIkM5KonqbN6puYU4tMwZk=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		vt1YyBoI15XHxNsPhnz19yzjN6M=
+		xNJ3Y83Nr/NlEw6DkaMxT5aeTNY=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BB1xURN0wdEhzwSGTNrHEt5SV9w=
+		r8LoWvtc9WTHQYX3nPH3tW8yd+E=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gfyguLW8+Y4IZAeNFpCoFGVpHlo=
+		eHFCj2uq/JVKxMEHFV9zYH303eg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>index.html</key>
 		<data>
-		qN6NfFhKCxnYTQx2EMTIM/9PRiw=
+		jb5o7fOGqoBu3JoStDrvyXqZ1gw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n95MBB1Hi05HjR8/+V7pp5LzRwF0r2ZCXa90biUePCQ=
+			Rn6WkP+SAncNRKCwPizii9Ms4UjJHz0MNf9okqBskTc=
 			</data>
 		</dict>
 		<key>Headers/LongdoMapFramework.h</key>
@@ -57,21 +57,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a447GvL2aUykSlFhDrdBfCtS0k4RnxkJ0Sym2baiJtQ=
+			70RxzYcoGM7s1mx8tKtVNWU1t/ge+beO9vBYsoVPgUY=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aO6ky7ygI3B6iILZbY7tw0B69/0InO/SsuYuLIwmuu4=
+			UCu90mO26bv/0Hx9lnbNVI4za5r6GuYyhRPjTiaCCsU=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zB58cfw4k1n9x/5tYTQCaiDDixCMPMsg3Rswa0TjrbM=
+			N8DZQlUXn/T3ijjeb6jWvBvng4nlrXPRsVbASNEO2Ik=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cm3iy8SwmqCTPie8+KtKWfIQ67aXyOVv0KsAi9iM/4k=
+			Sd5hyIVqDOtljL8E5TkNmgpDpYNMHnz18Q316qYy5NE=
 			</data>
 		</dict>
 	</dict>

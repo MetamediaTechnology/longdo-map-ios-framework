@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LongdoMapFramework
 import CoreLocation
 import Foundation
@@ -72,7 +72,9 @@ public enum LongdoLocale : Swift.String {
   @_Concurrency.MainActor(unsafe) public func ldfunction(_ function: Swift.String) -> LongdoMapFramework.LongdoMap.LDFunction
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect, configuration: WebKit.WKWebViewConfiguration)
   @_Concurrency.MainActor(unsafe) public func render()
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor(unsafe) public func call(method: Swift.String, args: [Any]?, completionHandler: @escaping ((Any?) -> Swift.Void)) -> Any?
   @_Concurrency.MainActor(unsafe) public func call(method: Swift.String, args: [Any]?) -> Any?
   @_Concurrency.MainActor(unsafe) public func objectCall(ldobject: LongdoMapFramework.LongdoMap.LDObject, method: Swift.String, args: [Any]?) -> Any?
   @objc deinit
