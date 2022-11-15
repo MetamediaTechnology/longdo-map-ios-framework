@@ -1,0 +1,3041 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LongdoMapFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "LongdoMapFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LongdoMapFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LongdoTurn",
+        "printedName": "LongdoTurn",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Left",
+            "printedName": "Left",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO4LeftyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO4LeftyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Right",
+            "printedName": "Right",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO5RightyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO5RightyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SlightLeft",
+            "printedName": "SlightLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO10SlightLeftyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO10SlightLeftyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SlightRight",
+            "printedName": "SlightRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO11SlightRightyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO11SlightRightyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Unknown",
+            "printedName": "Unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO7UnknownyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO7UnknownyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Straight",
+            "printedName": "Straight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO8StraightyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO8StraightyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Tollway",
+            "printedName": "Tollway",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO7TollwayyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO7TollwayyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Arrive",
+            "printedName": "Arrive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO6ArriveyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO6ArriveyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Ferry",
+            "printedName": "Ferry",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoTurn.Type) -> LongdoMapFramework.LongdoTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoTurn",
+                        "printedName": "LongdoMapFramework.LongdoTurn",
+                        "usr": "s:18LongdoMapFramework0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A4TurnO5FerryyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO5FerryyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LongdoMapFramework.LongdoTurn?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoTurn",
+                    "printedName": "LongdoMapFramework.LongdoTurn",
+                    "usr": "s:18LongdoMapFramework0A4TurnO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18LongdoMapFramework0A4TurnO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO8rawValueACSgSi_tcfc",
+            "moduleName": "LongdoMapFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18LongdoMapFramework0A4TurnO8rawValueSivp",
+            "mangledName": "$s18LongdoMapFramework0A4TurnO8rawValueSivp",
+            "moduleName": "LongdoMapFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0A4TurnO8rawValueSivg",
+                "mangledName": "$s18LongdoMapFramework0A4TurnO8rawValueSivg",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18LongdoMapFramework0A4TurnO",
+        "mangledName": "$s18LongdoMapFramework0A4TurnO",
+        "moduleName": "LongdoMapFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LongdoLocale",
+        "printedName": "LongdoLocale",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "English",
+            "printedName": "English",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoLocale.Type) -> LongdoMapFramework.LongdoLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoLocale",
+                    "printedName": "LongdoMapFramework.LongdoLocale",
+                    "usr": "s:18LongdoMapFramework0A6LocaleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoLocale",
+                        "printedName": "LongdoMapFramework.LongdoLocale",
+                        "usr": "s:18LongdoMapFramework0A6LocaleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A6LocaleO7EnglishyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A6LocaleO7EnglishyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Thai",
+            "printedName": "Thai",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LongdoMapFramework.LongdoLocale.Type) -> LongdoMapFramework.LongdoLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoLocale",
+                    "printedName": "LongdoMapFramework.LongdoLocale",
+                    "usr": "s:18LongdoMapFramework0A6LocaleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LongdoMapFramework.LongdoLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LongdoLocale",
+                        "printedName": "LongdoMapFramework.LongdoLocale",
+                        "usr": "s:18LongdoMapFramework0A6LocaleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18LongdoMapFramework0A6LocaleO4ThaiyA2CmF",
+            "mangledName": "$s18LongdoMapFramework0A6LocaleO4ThaiyA2CmF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LongdoMapFramework.LongdoLocale?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongdoLocale",
+                    "printedName": "LongdoMapFramework.LongdoLocale",
+                    "usr": "s:18LongdoMapFramework0A6LocaleO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18LongdoMapFramework0A6LocaleO8rawValueACSgSS_tcfc",
+            "mangledName": "$s18LongdoMapFramework0A6LocaleO8rawValueACSgSS_tcfc",
+            "moduleName": "LongdoMapFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18LongdoMapFramework0A6LocaleO8rawValueSSvp",
+            "mangledName": "$s18LongdoMapFramework0A6LocaleO8rawValueSSvp",
+            "moduleName": "LongdoMapFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0A6LocaleO8rawValueSSvg",
+                "mangledName": "$s18LongdoMapFramework0A6LocaleO8rawValueSSvg",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18LongdoMapFramework0A6LocaleO",
+        "mangledName": "$s18LongdoMapFramework0A6LocaleO",
+        "moduleName": "LongdoMapFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LongdoMap",
+        "printedName": "LongdoMap",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18LongdoMapFramework0aB0C6apiKeySSvp",
+            "mangledName": "$s18LongdoMapFramework0aB0C6apiKeySSvp",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C6apiKeySSvg",
+                "mangledName": "$s18LongdoMapFramework0aB0C6apiKeySSvg",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C6apiKeySSvs",
+                "mangledName": "$s18LongdoMapFramework0aB0C6apiKeySSvs",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C6apiKeySSvM",
+                "mangledName": "$s18LongdoMapFramework0aB0C6apiKeySSvM",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "server",
+            "printedName": "server",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18LongdoMapFramework0aB0C6serverSSvp",
+            "mangledName": "$s18LongdoMapFramework0aB0C6serverSSvp",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C6serverSSvg",
+                "mangledName": "$s18LongdoMapFramework0aB0C6serverSSvg",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C6serverSSvs",
+                "mangledName": "$s18LongdoMapFramework0aB0C6serverSSvs",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C6serverSSvM",
+                "mangledName": "$s18LongdoMapFramework0aB0C6serverSSvM",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Option",
+                "printedName": "LongdoMapFramework.LongdoMap.Option",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18LongdoMapFramework0aB0C7optionsAC6OptionCvp",
+            "mangledName": "$s18LongdoMapFramework0aB0C7optionsAC6OptionCvp",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Option",
+                    "printedName": "LongdoMapFramework.LongdoMap.Option",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C7optionsAC6OptionCvg",
+                "mangledName": "$s18LongdoMapFramework0aB0C7optionsAC6OptionCvg",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Option",
+                    "printedName": "LongdoMapFramework.LongdoMap.Option",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C7optionsAC6OptionCvs",
+                "mangledName": "$s18LongdoMapFramework0aB0C7optionsAC6OptionCvs",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18LongdoMapFramework0aB0C7optionsAC6OptionCvM",
+                "mangledName": "$s18LongdoMapFramework0aB0C7optionsAC6OptionCvM",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Option",
+            "printedName": "Option",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "layer",
+                "printedName": "layer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDStatic",
+                    "printedName": "LongdoMapFramework.LongdoMap.LDStatic",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDStaticV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionC5layerAC8LDStaticVvp",
+                "mangledName": "$s18LongdoMapFramework0aB0C6OptionC5layerAC8LDStaticVvp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LDStatic",
+                        "printedName": "LongdoMapFramework.LongdoMap.LDStatic",
+                        "usr": "s:18LongdoMapFramework0aB0C8LDStaticV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC5layerAC8LDStaticVvg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC5layerAC8LDStaticVvg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LDStatic",
+                        "printedName": "LongdoMapFramework.LongdoMap.LDStatic",
+                        "usr": "s:18LongdoMapFramework0aB0C8LDStaticV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC5layerAC8LDStaticVvs",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC5layerAC8LDStaticVvs",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC5layerAC8LDStaticVvM",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC5layerAC8LDStaticVvM",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "zoom",
+                "printedName": "zoom",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionC4zoomSivp",
+                "mangledName": "$s18LongdoMapFramework0aB0C6OptionC4zoomSivp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC4zoomSivg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC4zoomSivg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC4zoomSivs",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC4zoomSivs",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC4zoomSivM",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC4zoomSivM",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "zoomRange",
+                "printedName": "zoomRange",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClosedRange",
+                    "printedName": "Swift.ClosedRange<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:SN"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionC9zoomRangeSNySiGvp",
+                "mangledName": "$s18LongdoMapFramework0aB0C6OptionC9zoomRangeSNySiGvp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClosedRange",
+                        "printedName": "Swift.ClosedRange<Swift.Int>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:SN"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC9zoomRangeSNySiGvg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC9zoomRangeSNySiGvg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClosedRange",
+                        "printedName": "Swift.ClosedRange<Swift.Int>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:SN"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC9zoomRangeSNySiGvs",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC9zoomRangeSNySiGvs",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC9zoomRangeSNySiGvM",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC9zoomRangeSNySiGvM",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "location",
+                "printedName": "location",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationCoordinate2D",
+                    "printedName": "CoreLocation.CLLocationCoordinate2D",
+                    "usr": "c:@S@CLLocationCoordinate2D"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionC8locationSo22CLLocationCoordinate2DVvp",
+                "mangledName": "$s18LongdoMapFramework0aB0C6OptionC8locationSo22CLLocationCoordinate2DVvp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocationCoordinate2D",
+                        "printedName": "CoreLocation.CLLocationCoordinate2D",
+                        "usr": "c:@S@CLLocationCoordinate2D"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC8locationSo22CLLocationCoordinate2DVvg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC8locationSo22CLLocationCoordinate2DVvg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocationCoordinate2D",
+                        "printedName": "CoreLocation.CLLocationCoordinate2D",
+                        "usr": "c:@S@CLLocationCoordinate2D"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC8locationSo22CLLocationCoordinate2DVvs",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC8locationSo22CLLocationCoordinate2DVvs",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC8locationSo22CLLocationCoordinate2DVvM",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC8locationSo22CLLocationCoordinate2DVvM",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "lastView",
+                "printedName": "lastView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionC8lastViewSbvp",
+                "mangledName": "$s18LongdoMapFramework0aB0C6OptionC8lastViewSbvp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC8lastViewSbvg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC8lastViewSbvg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC8lastViewSbvs",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC8lastViewSbvs",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC8lastViewSbvM",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC8lastViewSbvM",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "onReady",
+                "printedName": "onReady",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionC7onReadyyycSgvp",
+                "mangledName": "$s18LongdoMapFramework0aB0C6OptionC7onReadyyycSgvp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(() -> ())?",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "() -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC7onReadyyycSgvg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC7onReadyyycSgvg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(() -> ())?",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "() -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC7onReadyyycSgvs",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC7onReadyyycSgvs",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC7onReadyyycSgvM",
+                    "mangledName": "$s18LongdoMapFramework0aB0C6OptionC7onReadyyycSgvM",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Option",
+                    "printedName": "LongdoMapFramework.LongdoMap.Option",
+                    "usr": "s:18LongdoMapFramework0aB0C6OptionC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionCAEycfc",
+                "mangledName": "$s18LongdoMapFramework0aB0C6OptionCAEycfc",
+                "moduleName": "LongdoMapFramework",
+                "overriding": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "toDictionary",
+                "printedName": "toDictionary()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18LongdoMapFramework0aB0C6OptionC12toDictionarySDySSypGyF",
+                "mangledName": "$s18LongdoMapFramework0aB0C6OptionC12toDictionarySDySSypGyF",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:18LongdoMapFramework0aB0C6OptionC",
+            "mangledName": "$s18LongdoMapFramework0aB0C6OptionC",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "LDStatic",
+            "printedName": "LDStatic",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C8LDStaticV4typeSSvp",
+                "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV4typeSSvp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDStaticV4typeSSvg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV4typeSSvg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C8LDStaticV4nameSSvp",
+                "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV4nameSSvp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDStaticV4nameSSvg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV4nameSSvg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C8LDStaticV9hashValueSivp",
+                "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV9hashValueSivp",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDStaticV9hashValueSivg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV9hashValueSivg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18LongdoMapFramework0aB0C8LDStaticV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV4hash4intoys6HasherVz_tF",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDStatic",
+                    "printedName": "LongdoMapFramework.LongdoMap.LDStatic",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDStaticV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDStatic",
+                    "printedName": "LongdoMapFramework.LongdoMap.LDStatic",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDStaticV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18LongdoMapFramework0aB0C8LDStaticV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV2eeoiySbAE_AEtFZ",
+                "moduleName": "LongdoMapFramework",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18LongdoMapFramework0aB0C8LDStaticV",
+            "mangledName": "$s18LongdoMapFramework0aB0C8LDStaticV",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "LDFunction",
+            "printedName": "LDFunction",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C10LDFunctionV9hashValueSivp",
+                "mangledName": "$s18LongdoMapFramework0aB0C10LDFunctionV9hashValueSivp",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C10LDFunctionV9hashValueSivg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C10LDFunctionV9hashValueSivg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18LongdoMapFramework0aB0C10LDFunctionV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s18LongdoMapFramework0aB0C10LDFunctionV4hash4intoys6HasherVz_tF",
+                "moduleName": "LongdoMapFramework",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDFunction",
+                    "printedName": "LongdoMapFramework.LongdoMap.LDFunction",
+                    "usr": "s:18LongdoMapFramework0aB0C10LDFunctionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDFunction",
+                    "printedName": "LongdoMapFramework.LongdoMap.LDFunction",
+                    "usr": "s:18LongdoMapFramework0aB0C10LDFunctionV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18LongdoMapFramework0aB0C10LDFunctionV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18LongdoMapFramework0aB0C10LDFunctionV2eeoiySbAE_AEtFZ",
+                "moduleName": "LongdoMapFramework",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18LongdoMapFramework0aB0C10LDFunctionV",
+            "mangledName": "$s18LongdoMapFramework0aB0C10LDFunctionV",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "LDObject",
+            "printedName": "LDObject",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDObject",
+                    "printedName": "LongdoMapFramework.LongdoMap.LDObject",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDObjectV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDObject",
+                    "printedName": "LongdoMapFramework.LongdoMap.LDObject",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDObjectV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18LongdoMapFramework0aB0C8LDObjectV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18LongdoMapFramework0aB0C8LDObjectV2eeoiySbAE_AEtFZ",
+                "moduleName": "LongdoMapFramework",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18LongdoMapFramework0aB0C8LDObjectV4typeSSvp",
+                "mangledName": "$s18LongdoMapFramework0aB0C8LDObjectV4typeSSvp",
+                "moduleName": "LongdoMapFramework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18LongdoMapFramework0aB0C8LDObjectV4typeSSvg",
+                    "mangledName": "$s18LongdoMapFramework0aB0C8LDObjectV4typeSSvg",
+                    "moduleName": "LongdoMapFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:18LongdoMapFramework0aB0C8LDObjectV",
+            "mangledName": "$s18LongdoMapFramework0aB0C8LDObjectV",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "ldstatic",
+            "printedName": "ldstatic(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LDStatic",
+                "printedName": "LongdoMapFramework.LongdoMap.LDStatic",
+                "usr": "s:18LongdoMapFramework0aB0C8LDStaticV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18LongdoMapFramework0aB0C8ldstatic_4withAC8LDStaticVSS_SStF",
+            "mangledName": "$s18LongdoMapFramework0aB0C8ldstatic_4withAC8LDStaticVSS_SStF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ldobject",
+            "printedName": "ldobject(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LDObject",
+                "printedName": "LongdoMapFramework.LongdoMap.LDObject",
+                "usr": "s:18LongdoMapFramework0aB0C8LDObjectV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18LongdoMapFramework0aB0C8ldobject_4withAC8LDObjectVSS_SayypGtF",
+            "mangledName": "$s18LongdoMapFramework0aB0C8ldobject_4withAC8LDObjectVSS_SayypGtF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ldfunction",
+            "printedName": "ldfunction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LDFunction",
+                "printedName": "LongdoMapFramework.LongdoMap.LDFunction",
+                "usr": "s:18LongdoMapFramework0aB0C10LDFunctionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18LongdoMapFramework0aB0C10ldfunctionyAC10LDFunctionVSSF",
+            "mangledName": "$s18LongdoMapFramework0aB0C10ldfunctionyAC10LDFunctionVSSF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LongdoMap",
+                "printedName": "LongdoMapFramework.LongdoMap",
+                "usr": "c:@M@LongdoMapFramework@objc(cs)LongdoMap"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LongdoMapFramework@objc(cs)LongdoMap(im)initWithFrame:configuration:",
+            "mangledName": "$s18LongdoMapFramework0aB0C5frame13configurationACSo6CGRectV_So22WKWebViewConfigurationCtcfc",
+            "moduleName": "LongdoMapFramework",
+            "overriding": true,
+            "objc_name": "initWithFrame:configuration:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18LongdoMapFramework0aB0C6renderyyF",
+            "mangledName": "$s18LongdoMapFramework0aB0C6renderyyF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LongdoMapFramework@objc(cs)LongdoMap(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s18LongdoMapFramework0aB0C7webView_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0lmG0VctF",
+            "moduleName": "LongdoMapFramework",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LongdoMapFramework@objc(cs)LongdoMap(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s18LongdoMapFramework0aB0C21userContentController_10didReceiveySo06WKUsereF0C_So15WKScriptMessageCtF",
+            "moduleName": "LongdoMapFramework",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "call",
+            "printedName": "call(method:args:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18LongdoMapFramework0aB0C4call6method4args17completionHandlerypSgSS_SayypGSgyAHctF",
+            "mangledName": "$s18LongdoMapFramework0aB0C4call6method4args17completionHandlerypSgSS_SayypGSgyAHctF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "call",
+            "printedName": "call(method:args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18LongdoMapFramework0aB0C4call6method4argsypSgSS_SayypGSgtF",
+            "mangledName": "$s18LongdoMapFramework0aB0C4call6method4argsypSgSS_SayypGSgtF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "objectCall",
+            "printedName": "objectCall(ldobject:method:args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LDObject",
+                "printedName": "LongdoMapFramework.LongdoMap.LDObject",
+                "usr": "s:18LongdoMapFramework0aB0C8LDObjectV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18LongdoMapFramework0aB0C10objectCall8ldobject6method4argsypSgAC8LDObjectV_SSSayypGSgtF",
+            "mangledName": "$s18LongdoMapFramework0aB0C10objectCall8ldobject6method4argsypSgAC8LDObjectV_SSSayypGSgtF",
+            "moduleName": "LongdoMapFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LongdoMapFramework@objc(cs)LongdoMap",
+        "mangledName": "$s18LongdoMapFramework0aB0C",
+        "moduleName": "LongdoMapFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)WKWebView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "WebKit.WKWebView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 4,
+      "value": "\"th\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 4,
+      "value": "\"th\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 967,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1000,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1030,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 1145,
+      "length": 22,
+      "value": "\"api.longdo.com\/map3\/\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Dictionary",
+      "offset": 1297,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Dictionary",
+      "offset": 1341,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Dictionary",
+      "offset": 1390,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 3309,
+      "length": 9,
+      "value": "\"$static\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 3309,
+      "length": 9,
+      "value": "\"$static\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 4119,
+      "length": 11,
+      "value": "\"$function\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 4119,
+      "length": 11,
+      "value": "\"$function\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 4972,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5004,
+      "length": 5,
+      "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 4972,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5004,
+      "length": 5,
+      "value": "\"$id\""
+    }
+  ]
+}

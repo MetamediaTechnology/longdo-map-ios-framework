@@ -6,6 +6,6 @@ framework module LongdoMapFramework {
 }
 
 module LongdoMapFramework.Swift {
-    header "LongdoMapFramework-Swift.h"
-    requires objc
+  header "LongdoMapFramework-Swift.h"
+  requires objc
 }
