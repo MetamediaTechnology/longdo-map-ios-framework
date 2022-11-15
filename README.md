@@ -12,6 +12,9 @@ https://github.com/MetamediaTechnology/longdo-map-demo-ios
 
 ## Change log
 
+### Version 4.0.6
+* Fix initial zoom range.
+
 ### Version 4.0.5
 * Fix error log.
 * Fix support for safe area.
