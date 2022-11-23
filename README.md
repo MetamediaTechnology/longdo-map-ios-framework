@@ -12,6 +12,9 @@ https://github.com/MetamediaTechnology/longdo-map-demo-ios
 
 ## Change log
 
+### Version 4.0.7
+* Support returned object from `union` and `setBase`.
+
 ### Version 4.0.6
 * Fix initial zoom range.
 

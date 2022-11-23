@@ -136,8 +136,12 @@
       }
       function serialize(object) {
         if (!object) return object;
-        if (object.$id) return { $object: true, $id: object.$id };
-        if (object.active) return { $object: null };
+        if (object.$id) return { $object: 'true', $id: object.$id };
+        if (object.active || object.insert) {
+          object.$id = objectList.length;
+          objectList.push(object);
+          return { $object: 'wait', $id: object.$id, $data: object };
+        }
         if (Array.isArray(object)) {
           for (let i = 0; i < object.length; ++i) {
             object[i] = serialize(object[i]);
@@ -240,6 +244,11 @@
           });
           console.log('Method ' + method + ' not found.');
         }
+      }
+      function moveObject(from, to) {
+        objectList[from].$id = to;
+        objectList[to] = objectList[from];
+        delete objectList[from];
       }
     </script>
   </head>
