@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LongdoMapFramework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreLocation
@@ -8,6 +8,7 @@ import Foundation
 import Swift
 import WebKit
 import _Concurrency
+import _StringProcessing
 public enum LongdoTurn : Swift.Int {
   case Left
   case Right
@@ -71,7 +72,7 @@ public enum LongdoLocale : Swift.String {
   @_Concurrency.MainActor(unsafe) public func ldstatic(_ type: Swift.String, with name: Swift.String) -> LongdoMapFramework.LongdoMap.LDStatic
   @_Concurrency.MainActor(unsafe) public func ldobject(_ type: Swift.String, with params: [Any]) -> LongdoMapFramework.LongdoMap.LDObject
   @_Concurrency.MainActor(unsafe) public func ldfunction(_ function: Swift.String) -> LongdoMapFramework.LongdoMap.LDFunction
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect, configuration: WebKit.WKWebViewConfiguration)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration)
   @_Concurrency.MainActor(unsafe) public func render()
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)

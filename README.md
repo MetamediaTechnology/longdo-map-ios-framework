@@ -12,6 +12,10 @@ https://github.com/MetamediaTechnology/longdo-map-demo-ios
 
 ## Change log
 
+### Version 4.0.8
+* Fix issue that prevent some bundle identifier with right API key to use framework.
+* Fix support for safe area.
+
 ### Version 4.0.7
 * Support returned object from `union` and `setBase`.
 

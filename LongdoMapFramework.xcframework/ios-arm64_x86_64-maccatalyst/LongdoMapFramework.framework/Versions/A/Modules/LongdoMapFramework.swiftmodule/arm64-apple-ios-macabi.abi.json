@@ -2286,7 +2286,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CGRect",
-                "printedName": "CoreGraphics.CGRect",
+                "printedName": "CoreFoundation.CGRect",
                 "usr": "c:@S@CGRect"
               },
               {
@@ -2984,6 +2984,146 @@
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
+      "offset": 2059,
+      "length": 8,
+      "value": "\"Layers\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2075,
+      "length": 6,
+      "value": "\"GRAY\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2107,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2139,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2143,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "FloatLiteral",
+      "offset": 2207,
+      "length": 7,
+      "value": "13.7649"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "FloatLiteral",
+      "offset": 2227,
+      "length": 8,
+      "value": "100.5382"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2265,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2411,
+      "length": 7,
+      "value": "\"layer\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2479,
+      "length": 6,
+      "value": "\"zoom\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2514,
+      "length": 11,
+      "value": "\"zoomRange\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2549,
+      "length": 5,
+      "value": "\"min\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2603,
+      "length": 5,
+      "value": "\"max\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2671,
+      "length": 10,
+      "value": "\"location\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2705,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2757,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2853,
+      "length": 10,
+      "value": "\"lastView\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 2896,
+      "length": 7,
+      "value": "\"ready\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2927,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2932,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
       "offset": 3309,
       "length": 9,
       "value": "\"$static\""
@@ -2994,6 +3134,48 @@
       "offset": 3309,
       "length": 9,
       "value": "\"$static\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 3565,
+      "length": 9,
+      "value": "\"$static\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 3579,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 3617,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 3628,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 3760,
+      "length": 9,
+      "value": "\"$static\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 3792,
+      "length": 6,
+      "value": "\"name\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
@@ -3006,6 +3188,27 @@
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
       "offset": 4119,
+      "length": 11,
+      "value": "\"$function\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 4350,
+      "length": 11,
+      "value": "\"$function\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 4366,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 4501,
       "length": 11,
       "value": "\"$function\""
     },
@@ -3036,6 +3239,1490 @@
       "offset": 5004,
       "length": 5,
       "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5287,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5313,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5350,
+      "length": 5,
+      "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5369,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5407,
+      "length": 6,
+      "value": "\"args\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 5429,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5559,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5592,
+      "length": 5,
+      "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 5619,
+      "length": 6,
+      "value": "\"args\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6436,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 6490,
+      "length": 9,
+      "value": "\"MenuBar\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6527,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6556,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 6600,
+      "length": 8,
+      "value": "\"change\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6703,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 6792,
+      "length": 8,
+      "value": "\"change\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 7788,
+      "length": 7,
+      "value": "\"index\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 7812,
+      "length": 6,
+      "value": "\"html\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 7969,
+      "length": 17,
+      "value": "\"${Const.server}\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 8063,
+      "length": 17,
+      "value": "\"${Const.apiKey}\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 8157,
+      "length": 19,
+      "value": "\"${Const.bundleId}\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8280,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 8501,
+      "length": 16,
+      "value": "\"${Const.props}\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 8570,
+      "length": 4,
+      "value": "\"{}\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 8641,
+      "length": 9,
+      "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 8698,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 8748,
+      "length": 29,
+      "value": "\"Fail to initial Longdo Map.\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9015,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9063,
+      "length": 18,
+      "value": "\"Longdo Map SDK v\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9097,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9116,
+      "length": 35,
+      "value": "\" by Metamedia Technology Co. Ltd.\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9222,
+      "length": 5,
+      "value": "\"log\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9298,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9376,
+      "length": 5,
+      "value": "\"tag\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9452,
+      "length": 8,
+      "value": "\"commit\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 9531,
+      "length": 8,
+      "value": "\"change\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9655,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9699,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9772,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Dictionary",
+      "offset": 10421,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 10452,
+      "length": 5,
+      "value": "\"log\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 10492,
+      "length": 5,
+      "value": "\"log\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 10519,
+      "length": 6,
+      "value": "\"[{}]\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 10550,
+      "length": 17,
+      "value": "\"Internal Error.\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 10638,
+      "length": 5,
+      "value": "\"log\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 10818,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10885,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 10996,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 11044,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 11155,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 11225,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 11430,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11458,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11534,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 11654,
+      "length": 5,
+      "value": "\"tag\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 11700,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 11784,
+      "length": 6,
+      "value": "\"tile\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 11989,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12059,
+      "length": 6,
+      "value": "\"zoom\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12085,
+      "length": 3,
+      "value": "\"z\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12101,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12106,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12225,
+      "length": 8,
+      "value": "\"commit\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12268,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 12472,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12500,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12552,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12608,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12645,
+      "length": 6,
+      "value": "\"wait\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12713,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12771,
+      "length": 5,
+      "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12855,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 12868,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13012,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13092,
+      "length": 51,
+      "value": "\"moveObject(\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13113,
+      "length": 5,
+      "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13123,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13125,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13141,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13206,
+      "length": 5,
+      "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13315,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13490,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13545,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13683,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13700,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13809,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13826,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13926,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 13943,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 14006,
+      "length": 8,
+      "value": "\"change\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 14055,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 14243,
+      "length": 6,
+      "value": "\"from\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 14456,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 14569,
+      "length": 4,
+      "value": "\"to\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 14772,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "FloatLiteral",
+      "offset": 15101,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 15186,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 15447,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Dictionary",
+      "offset": 15699,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 15904,
+      "length": 6,
+      "value": "\"icon\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 15998,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 16065,
+      "length": 6,
+      "value": "\"html\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 16075,
+      "length": 67,
+      "value": "\"<img src=\"data:image\/png;base64,\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 16135,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 16138,
+      "length": 1,
+      "value": "\"\">\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 16221,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 17562,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19140,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19175,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19190,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19229,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19239,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19244,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19272,
+      "length": 45,
+      "value": "\"rgba(\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19282,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19287,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19292,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19315,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19343,
+      "length": 15,
+      "value": "\"rgba(0,0,0,0)\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19471,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19502,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19639,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19677,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19835,
+      "length": 5,
+      "value": "\"min\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 19872,
+      "length": 5,
+      "value": "\"max\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 20042,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 20080,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20214,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20463,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20595,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20687,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 21005,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21283,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21329,
+      "length": 5,
+      "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21538,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21543,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21560,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21601,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21622,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21648,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21669,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21827,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21832,
+      "length": 5,
+      "value": "\"min\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21849,
+      "length": 5,
+      "value": "\"max\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21890,
+      "length": 5,
+      "value": "\"min\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21908,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 21934,
+      "length": 5,
+      "value": "\"max\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21952,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22067,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22072,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22087,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22128,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22172,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22188,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22320,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22325,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22344,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22390,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22410,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22439,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22580,
+      "length": 9,
+      "value": "\"$static\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Dictionary",
+      "offset": 22739,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 22805,
+      "length": 6,
+      "value": "\"turn\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22896,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23095,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23641,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 24042,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24174,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 24232,
+      "length": 10,
+      "value": "\"Tags.add\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24321,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 24457,
+      "length": 31,
+      "value": "\"call(\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 24473,
+      "length": 1,
+      "value": "\",\"Tags.add\")\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 24559,
+      "length": 91,
+      "value": "\"Please use \"([String: Any], Int) -> Void\" or tag string as first parameter in Tags.add.\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 24729,
+      "length": 12,
+      "value": "\"Event.bind\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24767,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24796,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 24918,
+      "length": 47,
+      "value": "\"call(\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 24934,
+      "length": 1,
+      "value": "\",\"Event.bind\",[\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24957,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 24960,
+      "length": 1,
+      "value": "\"\"])\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25025,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25143,
+      "length": 47,
+      "value": "\"call(\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25159,
+      "length": 1,
+      "value": "\",\"Event.bind\",[\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25182,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25185,
+      "length": 1,
+      "value": "\"\"])\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25261,
+      "length": 79,
+      "value": "\"Please use \"() -> Void\" or \"(data: Any?) -> Void\" callback in Event.bind.\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25670,
+      "length": 33,
+      "value": "\"call(\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25686,
+      "length": 1,
+      "value": "\",\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25698,
+      "length": 1,
+      "value": "\"\", \""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25750,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25756,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 25964,
+      "length": 27,
+      "value": "\"Wrong parameter in call:.\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "Array",
+      "offset": 26730,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27081,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27192,
+      "length": 13,
+      "value": "\"objectCall(\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27232,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27243,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27318,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27348,
+      "length": 17,
+      "value": "\",\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27361,
+      "length": 1,
+      "value": "\"\",\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27436,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27466,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27552,
+      "length": 33,
+      "value": "\"Wrong parameter in objectCall:.\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
+      "kind": "StringLiteral",
+      "offset": 27771,
+      "length": 33,
+      "value": "\"Wrong parameter in objectCall:.\""
     }
   ]
 }
