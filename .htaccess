@@ -3,7 +3,7 @@ RewriteEngine On
 
 
 # Route documentation and tutorial pages.
-RewriteRule ^(documentation|tutorials)\/.*$ SlothCreator.doccarchive/index.html [L]
+RewriteRule ^(documentation|tutorials)\/.*$ LongdoMapFramework.doccarchive/index.html [L]
 
 
 # Route files and data for the documentation archive.
@@ -14,4 +14,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 
 # ... route the request to that file path with the documentation archive.
-RewriteRule .* SlothCreator.doccarchive/$0 [L]
+RewriteRule .* LongdoMapFramework.doccarchive/$0 [L]
