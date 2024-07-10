@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.source       = { :git => "https://github.com/MetamediaTechnology/longdo-map-ios-framework.git", :tag => "#{s.version}" }
   s.vendored_frameworks = "LongdoMapFramework.xcframework"
-  s.dependency  = "Swifter", "~> 1.5.0"
+  s.dependency    "Swifter", "~> 1.5.0"
   
 
 end
