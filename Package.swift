@@ -7,7 +7,7 @@ let package = Package(
         .macOS(.v10_15), .iOS(.v13)
     ],
     products: [
-        .library(name: "LongdoMapFramework", targets: ["LongdoMapFramework"])
+        .library(name: "LongdoMapFramework", targets: ["LongdoMapFrameworkCore", "LongdoMapFramework3rdParty"])
     ],
     dependencies: [
         .package(url: "https://github.com/httpswift/swifter", from: "1.5.0"),
@@ -18,9 +18,8 @@ let package = Package(
             path: "LongdoMapFramework.xcframework"
         ),
         .target(
-            name: "LongdoMapFramework",
+            name: "LongdoMapFramework3rdParty",
             dependencies: [
-                .target(name: "LongdoMapFrameworkCore"),
                 .product(name: "Swifter", package: "swifter")
             ],
             path: "Sources"
