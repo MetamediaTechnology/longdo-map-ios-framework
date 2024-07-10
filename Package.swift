@@ -15,7 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LongdoMapFramework",
-            path: "LongdoMapFramework.xcframework"
+            path: "LongdoMapFramework.xcframework",
+            dependencies: ["Swifter"]
         )
     ]
 )
