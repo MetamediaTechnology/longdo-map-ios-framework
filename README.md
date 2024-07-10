@@ -15,6 +15,9 @@ https://metamediatechnology.github.io/longdo-map-ios-framework/documentation/lon
 
 ## Change log
 
+### Version 4.1.0
+* Support offline mode. (An internet connection is required the first time to check the API key and can be used offline for seven days after verification.)
+
 ### Version 4.0.8
 * Fix issue that prevent some bundle identifier with right API key to use framework.
 * Fix support for safe area.

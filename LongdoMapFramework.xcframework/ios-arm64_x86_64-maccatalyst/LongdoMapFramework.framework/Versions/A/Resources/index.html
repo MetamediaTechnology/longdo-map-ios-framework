@@ -25,27 +25,49 @@
           right: env(safe-area-inset-right) !important;
       }
       #error-message {
-          position: absolute;
-          top: env(safe-area-inset-top) !important;
-          left: env(safe-area-inset-left) !important;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
       }
     </style>
-    <script src="https://${Const.server}?key=${Const.apiKey}"></script>
     <script>
       let objectList = [];
-      function init() {
+      let cachedTile = {};
+      const TILE_CACHE_FOLDER = `${Const.tileCacheFolder}`;
+      
+      async function init() {
+        if (navigator.onLine) {
+          await addLibrary(`https://${Const.server}?key=${Const.apiKey}`);
+        }
+        else if (location.host.indexOf('localhost') == -1) {
+          location.href = '${location.origin}/landing.html';
+        }
+        else {
+          await addStyle('maplibre-gl.css').catch(console.log);
+          await addLibrary('maplibre-gl.js').catch(console.log);
+          await addLibrary('deck-gl.js').catch(console.log);
+          await addLibrary('map.js').catch(console.log);
+        }
         const placeholder = document.getElementById('map');
+        if (navigator.onLine) {
+          addFile('https://${Const.server}js/deck-gl.js', 'deck-gl.js');
+          addFile('https://${Const.server}js/maplibre-gl.css', 'maplibre-gl.css');
+          addFile('https://${Const.server}js/maplibre-gl.js', 'maplibre-gl.js');
+          addFile('https://${Const.server}?key=${Const.apiKey}', 'map.js');
+        }
         if (!window.longdo) {
           placeholder.innerHTML = '<div id="error-message">' + (navigator.onLine
-            ? '<h4>UNREGISTERED APP</h4><strong>ID</strong>: ${Const.bundleId}'
-            : 'Not connected to network') + '</div>';
+            ? `<h4>UNREGISTERED APP</h4><strong>ID</strong>: ${Const.bundleId}`
+            : 'No Internet Connection.') + '</div>';
           return;
         }
         console.log = (t) => {
           if (t.line && t.message && t.column) {
             window.webkit.messageHandlers.log.postMessage({
               "log": JSON.stringify([
-                t.message + ' #L' + t.line + ':' + t.column
+                `${t.message} #L${t.line}:${t.column}`
               ])
             });
           }
@@ -54,7 +76,7 @@
           }
         }
         onerror = (message, source, lineno, colno) => {
-          console.log(message + ' @ ' + source + '#L' + lineno + ':' + colno);
+          console.log(`${message} @ ${source}#L${lineno}:${colno}`);
           return true;
         };
         const props = ${Const.props};
@@ -67,8 +89,33 @@
           ui: props.ui,
           lastView: props.lastView,
           language: props.language,
-          placeholder: placeholder
+          placeholder: placeholder,
+          transformRequest: (url) => {
+            if (url.slice(0, 4) != 'http') {
+              return false;
+            }
+            if (!cachedTile[url]) {
+              cachedTile[url] = {};
+            }
+            if (navigator.onLine && !cachedTile[url].added) {
+              try {
+                addFile(url, TILE_CACHE_FOLDER);
+                cachedTile[url].added = true;
+              } catch(error) {
+                console.log(error);
+              }
+            }
+            if (!navigator.onLine) {
+              return {
+                url: getCacheURL({
+                  cacheName: TILE_CACHE_FOLDER,
+                  url: url
+                })
+              };
+            }
+          }
         });
+        
         map.Ui.Geolocation?.visible(false);
         if (props.ready) {
           try {
@@ -88,12 +135,78 @@
         map.toJSON = map.Overlays.toJSON = map.Ui.toJSON = () => ({});
         objectList[0] = map;
       }
+        
+      //JS Interface
+      function getCacheURL({cacheName, url}) {
+        return `${location.origin}/${cacheName}/${url.split('/').slice(3, -1).join('/')}`
+            + `/${encodeURIComponent(encodeURIComponent(url.split('/').pop()))}`;
+      }
+        
+      function addFile(url, cacheName) {
+        if (cacheName == TILE_CACHE_FOLDER) {
+          window.webkit.messageHandlers.addCache.postMessage({
+            "cacheName": `${TILE_CACHE_FOLDER}/${url.split('/').slice(3, -1).join('/')}`,
+            "url": url,
+            "name": encodeURIComponent(url.split('/').pop())
+          });
+        }
+        else {
+          window.webkit.messageHandlers.addCache.postMessage({
+            "cacheName": '',
+            "url": url,
+            "name": encodeURIComponent(cacheName)
+          });
+        }
+      }
+        
+      async function addLibrary(src) {
+        return new Promise((resolve, reject) => {
+          let script = document.createElement('script');
+          script.onload = (e) => {
+            resolve(e)
+          }
+          script.onreadystatechange = (e) => {
+            resolve(e)
+          }
+          script.onerror = (e) => {
+            reject(e)
+          }
+          script.src = src;
+          script.type = 'text/javascript';
+          script.async = false;
+          script.defer = false;
+          script.charset = 'UTF-8';
+          document.head.appendChild(script);
+        });
+      }
+        
+     async function addStyle(src) {
+       return new Promise((resolve, reject) => {
+         let script = document.createElement('link');
+         script.onload = (e) => {
+           resolve(e)
+         }
+         script.onreadystatechange = (e) => {
+           resolve(e)
+         }
+         script.onerror = (e) => {
+           reject(e)
+         }
+         script.href = src;
+         script.type = 'text/css';
+         script.rel = 'stylesheet';
+         script.media = 'all';
+         document.head.appendChild(script);
+       });
+     }
+        
+      // SDK Parser
       function parse(data) {
         if (!data) return data;
         if (data.$static) {
           let value = longdo[data.$static][data.name];
           if (!value) {
-            console.log('warning: ' + data.$static + '.' + data.name + ' is undefined.');
+            console.log(`warning: ${data.$static}.${data.name} is undefined.`);
           }
           return value;
         }
@@ -134,6 +247,7 @@
         }
         return data;
       }
+        
       function serialize(object) {
         if (!object) return object;
         if (object.$id) return { $object: 'true', $id: object.$id };
@@ -149,6 +263,7 @@
         }
         return object;
       }
+        
       function call(id, method, args) {
         const dot = method.indexOf('.');
         if (dot < 0) {
@@ -210,9 +325,11 @@
           }
         }
       }
+        
       function objectCall(id, object, method, args) {
         commit(parse(object), method, args, id);
       }
+        
       function commit(executor, method, args, id) {
         if (executor && executor[method]) {
           try {
@@ -242,9 +359,10 @@
             "result": null,
             "id": id
           });
-          console.log('Method ' + method + ' not found.');
+          console.log(`Method ${method} not found.`);
         }
       }
+        
       function moveObject(from, to) {
         objectList[from].$id = to;
         objectList[to] = objectList[from];

@@ -1,14 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LongdoMapFramework
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name LongdoMapFramework
+import CommonCrypto
 import CoreLocation
 import Foundation
 @_exported import LongdoMapFramework
 import Swift
+import Swifter
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum LongdoTurn : Swift.Int {
   case Left
   case Right
@@ -38,6 +40,10 @@ public enum LongdoLocale : Swift.String {
   @_Concurrency.MainActor(unsafe) public var apiKey: Swift.String
   @_Concurrency.MainActor(unsafe) public var server: Swift.String
   @_Concurrency.MainActor(unsafe) public var options: LongdoMapFramework.LongdoMap.Option
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var isInspectable: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc @_inheritsConvenienceInitializers public class Option : ObjectiveC.NSObject {
     public var layer: LongdoMapFramework.LongdoMap.LDStatic
     public var zoom: Swift.Int
@@ -74,6 +80,8 @@ public enum LongdoLocale : Swift.String {
   @_Concurrency.MainActor(unsafe) public func ldfunction(_ function: Swift.String) -> LongdoMapFramework.LongdoMap.LDFunction
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration)
   @_Concurrency.MainActor(unsafe) public func render()
+  @_Concurrency.MainActor(unsafe) public func preCacheTiles(x: Swift.ClosedRange<Swift.Int>, y: Swift.ClosedRange<Swift.Int>, zoom: Swift.Int, progress: @escaping (_ percent: Swift.Double) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func clearCache()
   @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @_Concurrency.MainActor(unsafe) public func call(method: Swift.String, args: [Any]?, completionHandler: @escaping ((Any?) -> Swift.Void)) -> Any?

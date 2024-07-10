@@ -1,7 +1,7 @@
 framework module LongdoMapFramework {
   umbrella header "LongdoMapFramework.h"
-
   export *
+
   module * { export * }
 }
 
