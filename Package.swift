@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.8
 import PackageDescription
 
 let package = Package(
@@ -16,13 +16,13 @@ let package = Package(
         .binaryTarget(
             name: "LongdoMapFrameworkCore",
             path: "LongdoMapFramework.xcframework"
-        )
+        ),
         .target(
             name: "LongdoMapFramework",
             dependencies: [
                 .target(name: "LongdoMapFrameworkCore"),
                 .product(name: "Swifter", package: "swifter")
             ]
-        ),
+        )
     ]
 )
