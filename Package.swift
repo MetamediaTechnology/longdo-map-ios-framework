@@ -14,9 +14,15 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "LongdoMapFramework",
-            path: "LongdoMapFramework.xcframework",
-            dependencies: ["Swifter"]
+            name: "LongdoMapFrameworkCore",
+            path: "LongdoMapFramework.xcframework"
         )
+        .target(
+            name: "LongdoMapFramework",
+            dependencies: [
+                .target(name: "LongdoMapFrameworkCore"),
+                .product(name: "Swifter", package: "swifter")
+            ]
+        ),
     ]
 )
