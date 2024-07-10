@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "LongdoMapFramework", targets: ["LongdoMapFramework"])
     ],
     dependencies: [
-        .package(name: "Swifter", url: "https://github.com/httpswift/swifter", from: "1.5.0"),
+        .package(url: "https://github.com/httpswift/swifter", from: "1.5.0"),
     ],
     targets: [
         .binaryTarget(
@@ -22,7 +22,8 @@ let package = Package(
             dependencies: [
                 .target(name: "LongdoMapFrameworkCore"),
                 .product(name: "Swifter", package: "swifter")
-            ]
+            ],
+            path: "Sources"
         )
     ]
 )
