@@ -15,6 +15,14 @@ https://metamediatechnology.github.io/longdo-map-ios-framework/documentation/lon
 
 ## Change log
 
+### Version 4.1.1
+* Support prevent default in `Event.bind`.
+* Support `double` type for point and size.
+* Support `ldstatic` for `EventName` enum.
+* Allow using `UIImage` for image or URL parameters.
+* Fix returning of GeoJSON type.
+* Fix `Event.unbind` not working properly.
+
 ### Version 4.1.0
 * Support offline mode. (An internet connection is required the first time to check the API key and can be used offline for seven days after verification.)
 

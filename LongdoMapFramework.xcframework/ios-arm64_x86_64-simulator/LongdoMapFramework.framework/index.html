@@ -35,6 +35,9 @@
     <script>
       let objectList = [];
       let cachedTile = {};
+      let bindFunc = {};
+      let serializeProps = ['path', '_geojson', 'geometry', 'coordinates'];
+      let removedProps = ['_handler', '_map'];
       const TILE_CACHE_FOLDER = `${Const.tileCacheFolder}`;
       
       async function init() {
@@ -116,16 +119,19 @@
           }
         });
         
-        map.Ui.Geolocation?.visible(false);
         if (props.ready) {
           try {
             const result = serialize(
               map.Event.bind(
-                "ready",
-                data => window.webkit.messageHandlers.event.postMessage({
-                  "id": props.ready,
-                  "data": JSON.stringify([serialize(data)])
-                })
+                longdo.EventName.Ready,
+                data => {
+                  map.Ui.Geolocation?.visible(false);
+                  serializeProps = serializeProps.concat(Object.keys(map.Ui));
+                  window.webkit.messageHandlers.event.postMessage({
+                    "id": props.ready,
+                    "data": JSON.stringify([serialize(data)])
+                  });
+                }
               )
             );
           } catch (e) {
@@ -251,15 +257,24 @@
       function serialize(object) {
         if (!object) return object;
         if (object.$id) return { $object: 'true', $id: object.$id };
+        if (object._geojson) return serialize(object._geojson);
         if (object.active || object.insert) {
           object.$id = objectList.length;
           objectList.push(object);
           return { $object: 'wait', $id: object.$id, $data: object };
         }
         if (Array.isArray(object)) {
-          for (let i = 0; i < object.length; ++i) {
-            object[i] = serialize(object[i]);
-          }
+          return object.map(serialize);
+        }
+        if (object && typeof object == 'object') {
+          Object.keys(object).forEach(key => {
+            if (serializeProps.includes(key)) {
+              object[key] = serialize(object[key]);
+            }
+            else if (removedProps.includes(key)) {
+              object[key] = null;
+            }
+          });
         }
         return object;
       }
@@ -292,15 +307,20 @@
           }
         } else if (method == 'Event.bind' && args.length > 0) {
           try {
-            const result = serialize(
-              objectList[0].Event.bind(
-                args[0],
-                data => window.webkit.messageHandlers.event.postMessage({
-                  "id": id,
-                  "data": JSON.stringify([serialize(data)])
-                })
-              )
-            );
+            const fn = data => {
+              window.webkit.messageHandlers.event.postMessage({
+                "id": id,
+                "data": JSON.stringify([serialize(data)])
+              })
+              return args[1]
+            };
+            if (!bindFunc[args[0]]) {
+              bindFunc[args[0]] = [fn];
+            }
+            else {
+              bindFunc[args[0]].push(fn);
+            }
+            const result = serialize(objectList[0].Event.bind(args[0], fn));
             window.webkit.messageHandlers.commit.postMessage({
               "result": JSON.stringify([result]) || null,
               "id": id
@@ -312,6 +332,19 @@
             });
             console.log(e);
           }
+        } else if (method == 'Event.unbind' && args.length > 0) {
+          try {
+            const eventName = parse(args[0]);
+            for (let fn of bindFunc[eventName] || []) {
+              serialize(objectList[0].Event.unbind(eventName, fn));
+            }
+          } catch (e) {
+            console.log(e);
+          }
+          window.webkit.messageHandlers.commit.postMessage({
+            "result": null,
+            "id": id
+          });
         } else {
           const secondDot = method.substring(dot + 1).indexOf('.');
           const mainMethod = method.substring(0, dot);
