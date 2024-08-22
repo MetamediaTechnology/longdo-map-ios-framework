@@ -15,6 +15,9 @@ https://metamediatechnology.github.io/longdo-map-ios-framework/documentation/lon
 
 ## Change log
 
+### Version 4.1.2
+* Performance improvements.
+
 ### Version 4.1.1
 * Support prevent default in `Event.bind`.
 * Support `double` type for point and size.

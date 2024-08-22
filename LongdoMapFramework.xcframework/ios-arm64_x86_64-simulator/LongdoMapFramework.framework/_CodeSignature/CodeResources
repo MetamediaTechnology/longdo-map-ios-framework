@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h8cMhL/gE6O6KWMB1+r9JvzcEM8=
+		siQBFyvkWbND5neiwItG0YEk4dQ=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1HRzokz67QMiG022a+B5Kfk5ZLo=
+		ZrOOEdZNduNZGdsmwnTOItNaEuM=
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		K3kAv6oFlj+w2afE/8LrBDm7L7U=
+		0Imp8Ed7QQmceWwfNQr5q5E5JyA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>index.html</key>
 		<data>
-		O4cgGSo0N4vvynMWfc6F5VeCmzI=
+		TacvRWbzdR4jMtXSD7Wq1rzmVH4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GStUj9RYI3RlINOiBCmRBpugHZorVm1usymaGO/d1B8=
+			6XzRW1XKfIzsl642R/rac85ubvwUJMg6Of/Hsb92SwM=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PBxBHZoBRf3B0UGyg2B3wZS0gwhhQgcNE27p2M5ml9g=
+			5hbS5SSsw+/Uv3H2EAdazYZvapb3HpQJ+23ofYlp6/g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9CfNFSCxZTGQvg4bRIgcH79ABjQ7lZ0Kw1DhXX+PK6E=
+			l7r73mnAw5gbbCvoJd8yQKhVghCNXjnD+RsQLXPqbOE=
 			</data>
 		</dict>
 	</dict>

@@ -34,7 +34,8 @@
     </style>
     <script>
       let objectList = [];
-      let cachedTile = {};
+      let cachedTile = JSON.parse(localStorage.getItem('cachedTile')) || {};
+      let currentCached = {};
       let bindFunc = {};
       let serializeProps = ['path', '_geojson', 'geometry', 'coordinates'];
       let removedProps = ['_handler', '_map'];
@@ -45,7 +46,7 @@
           await addLibrary(`https://${Const.server}?key=${Const.apiKey}`);
         }
         else if (location.host.indexOf('localhost') == -1) {
-          location.href = '${location.origin}/landing.html';
+          location.href = `${location.origin}/landing.html`;
         }
         else {
           await addStyle('maplibre-gl.css').catch(console.log);
@@ -55,10 +56,10 @@
         }
         const placeholder = document.getElementById('map');
         if (navigator.onLine) {
-          addFile('https://${Const.server}js/deck-gl.js', 'deck-gl.js');
-          addFile('https://${Const.server}js/maplibre-gl.css', 'maplibre-gl.css');
-          addFile('https://${Const.server}js/maplibre-gl.js', 'maplibre-gl.js');
-          addFile('https://${Const.server}?key=${Const.apiKey}', 'map.js');
+          addFile(`https://${Const.server}js/deck-gl.js`, 'deck-gl.js');
+          addFile(`https://${Const.server}js/maplibre-gl.css`, 'maplibre-gl.css');
+          addFile(`https://${Const.server}js/maplibre-gl.js`, 'maplibre-gl.js');
+          addFile(`https://${Const.server}?key=${Const.apiKey}`, 'map.js');
         }
         if (!window.longdo) {
           placeholder.innerHTML = '<div id="error-message">' + (navigator.onLine
@@ -100,15 +101,22 @@
             if (!cachedTile[url]) {
               cachedTile[url] = {};
             }
-            if (navigator.onLine && !cachedTile[url].added) {
+            if (!currentCached[url]) {
+                currentCached[url] = {};
+            }
+            if (navigator.onLine && !currentCached[url].added) {
               try {
-                addFile(url, TILE_CACHE_FOLDER);
-                cachedTile[url].added = true;
+                window.webkit.messageHandlers.addCache.postMessage({
+                  "cacheName": `${TILE_CACHE_FOLDER}/${url.split('/').slice(3, -1).join('/')}`,
+                  "url": url,
+                  "name": encodeURIComponent(url.split('/').pop()),
+                  "callback": 'addTileCallback'
+                });
               } catch(error) {
                 console.log(error);
               }
             }
-            if (!navigator.onLine) {
+            if (!navigator.onLine || cachedTile[url].added) {
               return {
                 url: getCacheURL({
                   cacheName: TILE_CACHE_FOLDER,
@@ -149,20 +157,17 @@
       }
         
       function addFile(url, cacheName) {
-        if (cacheName == TILE_CACHE_FOLDER) {
-          window.webkit.messageHandlers.addCache.postMessage({
-            "cacheName": `${TILE_CACHE_FOLDER}/${url.split('/').slice(3, -1).join('/')}`,
-            "url": url,
-            "name": encodeURIComponent(url.split('/').pop())
-          });
-        }
-        else {
-          window.webkit.messageHandlers.addCache.postMessage({
-            "cacheName": '',
-            "url": url,
-            "name": encodeURIComponent(cacheName)
-          });
-        }
+        window.webkit.messageHandlers.addCache.postMessage({
+          "cacheName": '',
+          "url": url,
+          "name": encodeURIComponent(cacheName)
+        });
+      }
+        
+      function addTileCallback(url) {
+        cachedTile[url].added = true;
+        currentCached[url].added = true;
+        localStorage.setItem('cachedTile', JSON.stringify(cachedTile));
       }
         
       async function addLibrary(src) {

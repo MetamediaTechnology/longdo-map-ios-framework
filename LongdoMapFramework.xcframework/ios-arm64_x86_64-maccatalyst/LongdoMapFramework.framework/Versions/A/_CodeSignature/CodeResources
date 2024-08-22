@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		Vu7bmJDrcr/o8cAHNajyudnwh9Q=
+		6kXv6FOA9glZNg8+vwRTFPNv/o8=
 		</data>
 		<key>Resources/index.html</key>
 		<data>
-		O4cgGSo0N4vvynMWfc6F5VeCmzI=
+		TacvRWbzdR4jMtXSD7Wq1rzmVH4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMa3QpHF0E7pLieoNR3Ba1gghNNWcBbPKzQUILDkR70=
+			PM4GrIMR84KkEqMBe4C/XDZ/dts7GBRGoy5C+ghcfvg=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B/hXIvh3em3G4msOvu8PxUYXdh80AJLAB4oTqlGc/Ro=
+			dqJIYSRh1+6H8HkvfShvduEgFL7dPuJcFWXYlyQKenE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -110,14 +110,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jNx5gREBdRcqwJpn3fgcfkb6Qcbvcit+QxIR2NJSw+Q=
+			HTnV4YRHf6kyzyIhIT6rXeUYc3kCYJKHUJiuXpuA7mo=
 			</data>
 		</dict>
 		<key>Resources/index.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9CfNFSCxZTGQvg4bRIgcH79ABjQ7lZ0Kw1DhXX+PK6E=
+			l7r73mnAw5gbbCvoJd8yQKhVghCNXjnD+RsQLXPqbOE=
 			</data>
 		</dict>
 	</dict>
