@@ -45,7 +45,7 @@
         if (navigator.onLine) {
           await addLibrary(`https://${Const.server}?key=${Const.apiKey}`);
         }
-        else if (location.host.indexOf('localhost') == -1) {
+        else if (location.host.indexOf('localhost') === -1) {
           location.href = `${location.origin}/landing.html`;
         }
         else {
@@ -80,8 +80,13 @@
           }
         }
         onerror = (message, source, lineno, colno) => {
-          console.log(`${message} @ ${source}#L${lineno}:${colno}`);
-          return true;
+          if (lineno === 0) {
+            console.log('Unexpected Error.');
+          }
+          else {
+            console.log(`${message} @ ${source}#L${lineno}:${colno}`);
+            return true;
+          }
         };
         const props = ${Const.props};
         
@@ -95,7 +100,7 @@
           language: props.language,
           placeholder: placeholder,
           transformRequest: (url) => {
-            if (url.slice(0, 4) != 'http') {
+            if (url.slice(0, 4) !== 'http') {
               return false;
             }
             if (!cachedTile[url]) {
@@ -127,25 +132,23 @@
           }
         });
         
-        if (props.ready) {
-          try {
-            const result = serialize(
-              map.Event.bind(
-                longdo.EventName.Ready,
-                data => {
-                  map.Ui.Geolocation?.visible(false);
-                  serializeProps = serializeProps.concat(Object.keys(map.Ui));
-                  window.webkit.messageHandlers.event.postMessage({
-                    "id": props.ready,
-                    "data": JSON.stringify([serialize(data)])
-                  });
-                }
-              )
-            );
-          } catch (e) {
-            console.log(e);
+        map.Event.bind(
+          longdo.EventName.Ready,
+          data => {
+            try {
+              map.Ui.Geolocation?.visible(false);
+              serializeProps = serializeProps.concat(Object.keys(map.Ui));
+              if (props.ready) {
+                window.webkit.messageHandlers.event.postMessage({
+                  "id": props.ready,
+                  "data": JSON.stringify([serialize(data)])
+                });
+              }
+            } catch (e) {
+              console.log(e);
+            }
           }
-        }
+        );
         map.toJSON = map.Overlays.toJSON = map.Ui.toJSON = () => ({});
         objectList[0] = map;
       }
@@ -216,7 +219,7 @@
         if (!data) return data;
         if (data.$static) {
           let value = longdo[data.$static][data.name];
-          if (!value) {
+          if (value === undefined) {
             console.log(`warning: ${data.$static}.${data.name} is undefined.`);
           }
           return value;
@@ -242,7 +245,7 @@
         if (typeof(data) === 'object') {
           let object = {};
           for (i in data) {
-            if (i == 'change') {
+            if (i === 'change') {
               const id = data[i];
               object[i] = (from, to) => window.webkit.messageHandlers.change.postMessage({
                 "from": JSON.stringify(serialize(from)),
@@ -271,7 +274,7 @@
         if (Array.isArray(object)) {
           return object.map(serialize);
         }
-        if (object && typeof object == 'object') {
+        if (object && typeof object === 'object') {
           Object.keys(object).forEach(key => {
             if (serializeProps.includes(key)) {
               object[key] = serialize(object[key]);
@@ -286,9 +289,11 @@
         
       function call(id, method, args) {
         const dot = method.indexOf('.');
-        if (dot < 0) {
+        if (method === 'Ui.add') {
+          console.log('Method Ui.add is currently not available.');
+        } else if (dot < 0) {
           commit(objectList[0], method, args, id);
-        } else if (method == 'Tags.add' && (!args || args.length == 0)) {
+        } else if (method === 'Tags.add' && (!args || args.length === 0)) {
           try {
             const result = serialize(
               objectList[0].Tags.add(
@@ -310,7 +315,7 @@
             });
             console.log(e);
           }
-        } else if (method == 'Event.bind' && args.length > 0) {
+        } else if (method === 'Event.bind' && args.length > 0) {
           try {
             const fn = data => {
               window.webkit.messageHandlers.event.postMessage({
@@ -337,7 +342,7 @@
             });
             console.log(e);
           }
-        } else if (method == 'Event.unbind' && args.length > 0) {
+        } else if (method === 'Event.unbind' && args.length > 0) {
           try {
             const eventName = parse(args[0]);
             for (let fn of bindFunc[eventName] || []) {
@@ -354,8 +359,8 @@
           const secondDot = method.substring(dot + 1).indexOf('.');
           const mainMethod = method.substring(0, dot);
           const subMethod = method.substring(dot + 1);
-          const mainObject = mainMethod == 'Util' ? longdo : objectList[0];
-          if (secondDot < 0) {
+          const mainObject = mainMethod === 'Util' ? longdo : objectList[0];
+          if (secondDot === -1) {
             commit(mainObject[mainMethod], subMethod, args, id);
           }
           else {
@@ -372,7 +377,7 @@
         if (executor && executor[method]) {
           try {
             const result = serialize(executor[method](...args.map(parse)));
-            if (result && typeof(result.then) == 'function') {
+            if (result && typeof(result.then) === 'function') {
               result.then(data =>
                 window.webkit.messageHandlers.event.postMessage({
                   "id": id,

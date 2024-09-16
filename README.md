@@ -15,6 +15,11 @@ https://metamediatechnology.github.io/longdo-map-ios-framework/documentation/lon
 
 ## Change log
 
+### Version 4.1.3
+* Fix `ldstatic` not working in some cases.
+* Fix method data returning issue.
+* Fix the offline mode issue.
+
 ### Version 4.1.2
 * Performance improvements.
 
