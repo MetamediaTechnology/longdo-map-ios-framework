@@ -11,18 +11,22 @@
       .maplibregl-ctrl-top-left  {
           top: env(safe-area-inset-top) !important;
           left: env(safe-area-inset-left) !important;
+          -webkit-user-select: none;
       }
       .maplibregl-ctrl-top-right {
           top: env(safe-area-inset-top) !important;
           right: env(safe-area-inset-right) !important;
+          -webkit-user-select: none;
       }
       .maplibregl-ctrl-bottom-left {
           bottom: env(safe-area-inset-bottom) !important;
           left: env(safe-area-inset-left) !important;
+          -webkit-user-select: none;
       }
       .maplibregl-ctrl-bottom-right {
           bottom: env(safe-area-inset-bottom) !important;
           right: env(safe-area-inset-right) !important;
+          -webkit-user-select: none;
       }
       #error-message {
           position: fixed;
@@ -317,12 +321,25 @@
           }
         } else if (method === 'Event.bind' && args.length > 0) {
           try {
-            const fn = data => {
+            const fn = (...params) => {
+              let data;
+              if (args[0] === longdo.EventName.LayerChange && params.length === 1) {
+                params.push(null);
+              }
+              if (params.length === 0) {
+                data = null;
+              }
+              else if (params.length === 1) {
+                data = params[0];
+              }
+              else {
+                data = params.map(el => el || 'null');
+              }
               window.webkit.messageHandlers.event.postMessage({
                 "id": id,
                 "data": JSON.stringify([serialize(data)])
-              })
-              return args[1]
+              });
+              return args[1];
             };
             if (!bindFunc[args[0]]) {
               bindFunc[args[0]] = [fn];

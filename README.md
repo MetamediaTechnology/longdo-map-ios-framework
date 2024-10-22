@@ -15,6 +15,10 @@ https://metamediatechnology.github.io/longdo-map-ios-framework/documentation/lon
 
 ## Change log
 
+### Version 4.1.4
+* Support multiple arguments combined to array format in `Event.bind` completion.
+* Improve support for Xcode 16.
+
 ### Version 4.1.3
 * Fix `ldstatic` not working in some cases.
 * Fix method data returning issue.

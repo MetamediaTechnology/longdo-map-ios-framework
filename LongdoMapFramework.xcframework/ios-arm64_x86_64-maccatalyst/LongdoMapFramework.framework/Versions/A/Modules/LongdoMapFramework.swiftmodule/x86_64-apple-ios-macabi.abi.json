@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "LongdoMapFramework",
+    "printedName": "LongdoMapFramework",
     "children": [
       {
         "kind": "Import",
@@ -19,7 +19,10 @@
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
-        "moduleName": "LongdoMapFramework"
+        "moduleName": "LongdoMapFramework",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "Import",
@@ -33,7 +36,10 @@
         "name": "Swifter",
         "printedName": "Swifter",
         "declKind": "Import",
-        "moduleName": "LongdoMapFramework"
+        "moduleName": "LongdoMapFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -492,6 +498,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -698,6 +718,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -757,8 +791,9 @@
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -845,8 +880,9 @@
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -933,8 +969,9 @@
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1024,6 +1061,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1765,6 +1803,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2017,6 +2069,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Hashable",
                 "printedName": "Hashable",
                 "usr": "s:SH",
@@ -2144,6 +2210,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Hashable",
                 "printedName": "Hashable",
                 "usr": "s:SH",
@@ -2254,6 +2334,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2290,6 +2384,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C8ldstatic_4withAC8LDStaticVSS_SStF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2332,6 +2427,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C8ldobject_4withAC8LDObjectVSS_SayypGtF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2361,6 +2457,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C10ldfunctionyAC10LDFunctionVSSF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2400,6 +2497,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override",
@@ -2423,6 +2521,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C6renderyyF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2497,6 +2596,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C13preCacheTiles1x1y4zoom8progressySNySiG_AISiySdctF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2518,6 +2618,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C10clearCacheyyF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2571,6 +2672,7 @@
             "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2607,6 +2709,7 @@
             "objc_name": "userContentController:didReceiveScriptMessage:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2688,6 +2791,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C4call6method4args17completionHandlerypSgSS_SayypGSgyAHctF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2745,6 +2849,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C4call6method4argsypSgSS_SayypGSgtF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2808,6 +2913,7 @@
             "mangledName": "$s18LongdoMapFramework0aB0C10objectCall8ldobject6method4argsypSgAC8LDObjectV_SSSayypGSgtF",
             "moduleName": "LongdoMapFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2820,6 +2926,7 @@
         "mangledName": "$s18LongdoMapFramework0aB0C",
         "moduleName": "LongdoMapFramework",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "IBDesignable",
@@ -2836,6 +2943,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2908,357 +3029,189 @@
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 310,
+      "offset": 335,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 349,
+      "offset": 374,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 399,
+      "offset": 424,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
+      "offset": 476,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 499,
+      "offset": 524,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 542,
+      "offset": 567,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 586,
+      "offset": 611,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 622,
+      "offset": 647,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 666,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 310,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 349,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 451,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 499,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 586,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 622,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 666,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 310,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 349,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 451,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 499,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 586,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 622,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 666,
+      "offset": 691,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 767,
+      "offset": 792,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 802,
-      "length": 4,
-      "value": "\"th\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "StringLiteral",
-      "offset": 767,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 827,
       "length": 4,
       "value": "\"th\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 1002,
+      "offset": 1027,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 1035,
+      "offset": 1060,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "BooleanLiteral",
-      "offset": 1065,
+      "offset": 1090,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "Array",
-      "offset": 1107,
+      "offset": 1132,
       "length": 82,
       "value": "[\"bec73109aae4a11b12e95d957217f8591299188afc821689bc63b0912f08c470\"]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 1242,
+      "offset": 1267,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1325,
       "length": 22,
       "value": "\"api.longdo.com\/map3\/\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "Dictionary",
-      "offset": 1452,
+      "offset": 1477,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "Dictionary",
-      "offset": 1496,
+      "offset": 1521,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "Dictionary",
-      "offset": 1545,
+      "offset": 1570,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 1583,
+      "offset": 1608,
       "length": 12,
       "value": "\"tile_cache\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 1619,
+      "offset": 1644,
       "length": 4,
       "value": "8090"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 3656,
+      "offset": 3681,
       "length": 9,
       "value": "\"$static\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 3656,
-      "length": 9,
-      "value": "\"$static\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "StringLiteral",
-      "offset": 4466,
+      "offset": 4491,
       "length": 11,
       "value": "\"$function\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 4466,
-      "length": 11,
-      "value": "\"$function\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "StringLiteral",
-      "offset": 5319,
+      "offset": 5344,
       "length": 9,
       "value": "\"$object\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "StringLiteral",
-      "offset": 5351,
-      "length": 5,
-      "value": "\"$id\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "StringLiteral",
-      "offset": 5319,
-      "length": 9,
-      "value": "\"$object\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
-      "kind": "StringLiteral",
-      "offset": 5351,
+      "offset": 5376,
       "length": 5,
       "value": "\"$id\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/longdo-map-ios-sdk-v4\/LongdoMapFramework\/LongdoMapFramework\/LongdoMap.swift",
       "kind": "Array",
-      "offset": 11417,
+      "offset": 11442,
       "length": 30,
       "value": "[\"index.html\", \"default.html\"]"
     }

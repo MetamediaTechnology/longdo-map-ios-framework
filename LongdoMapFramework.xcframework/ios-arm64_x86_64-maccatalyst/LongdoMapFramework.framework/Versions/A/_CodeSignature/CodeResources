@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		dmHfRuKrH+FlMhg3Re8izA6p3vU=
+		nYwUoKjiZs5P9Q9MuK7792nHA/E=
 		</data>
 		<key>Resources/index.html</key>
 		<data>
-		dPwUESEhhel4V4KiJEfXCKqMRmo=
+		o7wWOqcbtjmZiI25pnFnwA9GJgg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -19,7 +19,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t4GfVFcGXafTy+g2IW7uETjZ8Fs/dCFALlr/G9Y9e0I=
+			2dsUCc0CVv2D5747QpWrqFcoBwEQni3XL/l9e+7wI9g=
 			</data>
 		</dict>
 		<key>Headers/LongdoMapFramework.h</key>
@@ -33,70 +33,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Eae2DEQR1h4nwds5WkAqE3RIxOLqckCQTfjEx5OrOJc=
+			A83jeRgQXuHxokYoAJcHJirurzUhuWQYeCxuQk+K0oc=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kScjSIZIps9q4kKJGy5QbfwC+CiA2eknQe1edl0WPVk=
+			RDtvFm1kbGllIsRPmUhDG1wu0Qih0nRUeUsL/PRuU8M=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xximgiM2zz+ErUACvB2N0SIcA0aH3ZGN9kdSvc0BdtI=
+			JihqH3SeNzJ2sNCBDEds3+U5hAA1I3RdNKsUjXh+PLU=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kScjSIZIps9q4kKJGy5QbfwC+CiA2eknQe1edl0WPVk=
+			RDtvFm1kbGllIsRPmUhDG1wu0Qih0nRUeUsL/PRuU8M=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t/vVxkUl8fAPHLRcjv3V67UpDN75XOzZExmic090WK0=
+			m8JITEY+gq4U9t4leev92kB6yqIGbA1GZAvhC14UpEU=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Eae2DEQR1h4nwds5WkAqE3RIxOLqckCQTfjEx5OrOJc=
+			A83jeRgQXuHxokYoAJcHJirurzUhuWQYeCxuQk+K0oc=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W1+YLx1z5if4z6BtsBXSoP0D/9ba4OQW9hQoYlVYdmM=
+			GvMCuQ1y06qo8ooCaZU7VmbT1UN0iYEMy0vbHbSN5Ek=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dSnx1y1Ad1uFDZ7KipW1u6FWrDOaGTe3Q7BIUSzeu7A=
+			bZkmeIl9fHGUrLLk/dR/5EJhdp+cNsKGcSAuQATH8Rw=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W1+YLx1z5if4z6BtsBXSoP0D/9ba4OQW9hQoYlVYdmM=
+			GvMCuQ1y06qo8ooCaZU7VmbT1UN0iYEMy0vbHbSN5Ek=
 			</data>
 		</dict>
 		<key>Modules/LongdoMapFramework.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ixi3mxLcBEYCZt49qKvLI0oK73yoq/MoBkhSHOBbVMY=
+			47eIdbA1ymH+dCC1l3BJ9xjLfAVnWZ9JBKpQa3nZcL0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -110,14 +110,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mBzm6s/IYVmb2BdYrqeQQxqO8CQ9x7Bgb1MiS6vQJBo=
+			cgEUauk9UxOyW2gnKeYzsGYZg+4XqANdKaG40eT5Zys=
 			</data>
 		</dict>
 		<key>Resources/index.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5nXu4OmGaGoCVA3gi5XnaQZzWCth6sFMqGTAxYCjYlI=
+			Z9aQ6Eg0w39tRU37noUqikG6keriJk7aLTqfGvkcoPI=
 			</data>
 		</dict>
 	</dict>
